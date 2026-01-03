@@ -1,0 +1,45 @@
+.local{
+    background-color: #575757;
+    color: white;
+}
+.rapid{
+    background-color: #5454ff;
+    color: white;
+}
+.fast-local{
+    background-color: #5454ff;
+}
+.express{
+    background-color: #dfe952;
+}
+.ltd-express{
+    background-color: rgb(243, 62, 62);
+    color: white;
+}
+.THSR{
+    background-color: #d87432;
+    color: white;
+}
+.板南線{
+    background-color: blue;
+    color: white;
+}
+.淡水信義線{
+    background-color: red;
+    color: white;
+}
+.中和新蘆線{
+    background-color: orange;
+    color:  white;
+}
+.松山新店線{
+    background-color: green;
+    color: white;
+}
+.文湖線{
+    background-color: brown;
+    color: white;
+}
+.None{
+    display: none;
+}

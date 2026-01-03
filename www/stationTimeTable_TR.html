@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/trainTypeColor.css" rel="stylesheet" />
+    <script src="js/lineChecker.js"></script>
+    <script src="js/trainSchedule.js"></script>
+    <title>新竹站時刻表</title>
+    <style>
+        .lineTitle {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .hour {
+            background-color: rgb(212, 212, 212);
+            width: 100%;
+            font-weight: bold;
+        }
+        .train {
+            display: flex;
+            width: 100%;
+            height: 50px;
+            margin: 10px 0;
+        }
+        .thead {
+            width: 100%;
+            display: flex;
+            font-weight: bold;
+        }
+        .trainType {
+            border-radius: 10px;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1><</h1>
+    </nav>
+    <div class="header">
+        <h4 id="stationName" style="margin: 0;">載入中</h4>
+        <div class="lineTitle">
+            <div id="lineColor" style="width: 5%; border-radius: 10%;"></div>
+            <h2 id="lineName" style="margin: 0;">載入中</h2>
+        </div>
+    </div>
+    <div class="trainList">
+        <div class="thead">
+            <div style="width: 30%; text-align: center;"><p style="margin: 0;">種別/車次</p></div>
+            <div style="width: 25%; text-align: center;"><p style="margin: 0;">發車時間</p></div>
+            <div style="width: 25%; text-align: center;"><p style="margin: 0;">開往</p></div>
+            <div style="width: 20%; text-align: center;"><p style="margin: 0;">備註</p></div>
+        </div>
+        <hr />
+        <div id="trainList"></div>
+    </div>
+
+    <script>
+        async function fetchTrainSchedule() {
+            const params = new URLSearchParams(window.location.search);
+            const stationID = params.get("stationID");
+            const date = params.get("date");
+            const lineName = params.get("lineName");
+            const direction = params.get("direction");
+
+            const trainList = document.getElementById("trainList");
+            trainList.innerHTML = "";
+
+            const response2 = await fetch("json/linelist.json");
+            const linelist = await response2.json();
+            const line = linelist.lines.find(l => l.name == lineName);
+
+            document.getElementById("lineName").innerHTML = lineName;
+            document.getElementById("lineColor").style.backgroundColor = line.color;
+
+            const response3 = await fetch("json/stations.json");
+            const stations = await response3.json();
+            
+            const station = stations.stations.find(s =>
+                s.lines.some(line => line.stationID == stationID)
+            );
+
+            let lineInStation = null;
+            if (station) {
+                lineInStation = station.lines.find(line => line.stationID == stationID && line.lineName == lineName && line.direction == direction);
+                console.log(line)
+                document.getElementById("stationName").innerHTML = lineInStation.stationNameInLine;
+            }
+            
+            // 取得時刻表
+            const groupedTrains = await fetchTRtrainSchedule(stationID,date,direction,lineInStation);
+
+            let html = "";
+            const trainObjects = [];  // 存下來以便後續綁定事件
+
+            Object.keys(groupedTrains).sort().forEach(hour => {
+                html += `<div class='hour'><p style='margin-left:10px'>${hour}時</p></div>`;
+                groupedTrains[hour].forEach((train, index) => {
+                    const typeClass = getTrainTypeClass(train.TrainTypeCode);
+                    const typeZh_tw = getTrainType(train.TrainTypeCode);
+
+                    // 給每個班次一個唯一 ID
+                    const trainId = `train-${hour}-${index}`;
+                    trainObjects.push({ id: trainId, train });
+
+                    html += `
+                        <div class='train' id='${trainId}' style="cursor: pointer;">
+                            <div style='display: flex; justify-content: center; width: 35%; text-align: center;'>
+                                <div style='width: 90%;'>
+                                    <div class='trainType ${typeClass}'>
+                                        <p style="font-size: 1em;margin: 10px;font-weight: bold;">${typeZh_tw}</p>
+                                    </div>
+                                </div>
+                                <div style='width: 20%;'>
+                                    <h5>${train.TrainNo}</h5>
+                                </div>
+                            </div>
+                            <div style='display: flex; justify-content: center; width: 25%; align-items: center; text-align: center;'><h2 style='margin:0'>${train.DepartureTime}</h2></div>
+                            <div style='display: flex; justify-content: center; width: 20%; align-items: center; text-align: center;'><h2 style='margin:0'>${train.EndingStationName.Zh_tw}</h2></div>
+                        </div>
+                        <hr />
+                    `;
+                });
+            });
+
+            trainList.innerHTML = html;
+
+            // 綁定事件
+            trainObjects.forEach(({ id, train }) => {
+                document.getElementById(id).addEventListener('click', () => {
+                    window.location.href = `trainTimeTable.html?trainNo=${train.TrainNo}`;
+                });
+            });
+        }
+
+
+        function formatDate(timestamp) {
+            const date = new Date(timestamp);
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0'); // 月份是0-11
+            const day = String(date.getDate()).padStart(2, '0');
+            return `${year}-${month}-${day}`;
+        }
+        
+        fetchTrainSchedule();
+    </script>
+</body>
+</html>

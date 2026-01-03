@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/trainTypeColor.css" rel="stylesheet" />
+    <title>新竹站路線列表</title>
+    <style>
+        #trainNo {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px 15px;
+            font-size: 18px;
+            border: 2px solid #007bff;
+            border-radius: 25px;
+            outline: none;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #selectDate {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px 15px;
+            font-size: 18px;
+            border: 2px solid #28a745;
+            border-radius: 25px;
+            outline: none;
+            margin-top: 15px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        #searchBtn {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px 15px;
+            font-size: 18px;
+            border: 2px solid #ffc107;
+            border-radius: 25px;
+            outline: none;
+            margin-top: 15px;
+            background-color: #ffc107;
+            color: black;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        #searchBtn:hover {
+            background-color: #e0a800;
+        }
+
+        #searchResults {
+            width: 80%;
+            max-width: 400px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 125px;
+            z-index: 1000;
+            display: none;
+        }
+
+        .search-item {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+
+        .search-item:last-child {
+            border-bottom: none;
+        }
+
+        .search-item:hover {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1><</h1>
+    </nav>
+    <div class="header">
+        <input type="text" id="trainNo" placeholder="輸入車次"/>
+        <input type="date" id="selectDate" />
+        <button id="searchBtn">查詢</button>
+        <div id="searchResults"></div>
+    </div>    
+
+    <script>
+        document.getElementById("searchBtn").addEventListener("click",() => {
+            const trainNo = document.getElementById("trainNo").value
+            const date = document.getElementById("selectDate").value
+            if (!trainNo) {
+                alert("請先輸入車次");
+            }else if (!date) {
+                alert("請選擇日期");
+            }else{
+                window.location.href = `trainTimeTable.html?trainNo=${trainNo}`;
+            }
+            
+        })
+    </script>
+</body>
+</html>

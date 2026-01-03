@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/trainTypeColor.css" rel="stylesheet" />
+    <script src="js/lineChecker.js"></script>
+    <title>列車時刻表</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .trainInfo{
+            flex: 0 0 auto;
+            height:20%;
+            width: 100%;
+            padding: 10px;
+            background-color: white;
+        }
+        .station-list {
+            flex: 1 1 auto;
+            width: 100%;
+            height: 78%;
+            position: relative;  /* 确保中线可以覆盖整个列表 */
+            padding: 20px 0;
+            overflow: auto;
+        }
+        .station-list::-webkit-scrollbar {
+            display: none; /* Chrome, Safari, 新版 Edge */
+        }
+
+        .station {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+        }
+        .route {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+            height: 50px;
+        }
+
+        .station-name {
+            width: 50%;
+            text-align: right;
+            padding: 10px 20px;  /* 只给站名加 padding */
+            font-size: 1.5em;
+        }
+
+        .track-container {
+            display:flex;
+            position: relative;
+            height: 100%;
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .train-container{
+            display: flex;
+            flex-direction: row-reverse;
+            width: 50%;
+            padding-right: 10px;
+        }
+        .time-container{
+            height: 100%;
+            width: 50%;
+            padding-left: 20px;
+        }
+        .track-line {
+            width: 4px;
+            background-color: #d87432;
+            height: 53px;  /* 强制设置为固定高度 */
+            position: absolute;
+            z-index: 1;
+        }
+        .station-dot {
+            width: 12px;
+            height: 12px;
+            border: 3px solid #d87432;
+            border-radius: 50%;
+            position: absolute;
+            top: calc(50% - 9px);
+            right: calc(50% - 9px);
+            z-index: 2;
+            background-color: transparent;
+        }
+        .train-icon {
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: 3;
+            width:60px; 
+            height:90px; 
+            background-color: white; 
+            border-radius: 5px;
+            box-shadow: 0 0px 4px rgba(0, 0, 0, 0.3);   /* 陰影 */
+        }
+
+        .train-lineColor{
+            height: 3px;
+        }
+
+        .triangle-arrow {
+            width: 40px;
+            margin: 2px;
+            height: 5px;
+            background-color: rgb(199, 199, 199);
+            clip-path: polygon(50% 100%, 0 0, 100% 0); /* 向下三角形 */
+            /*box-shadow: 0 0px 10px 40px rgba(0, 0, 0, 0.3);   /* 陰影 */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1><</h1>
+    </nav>
+    <div class="trainInfo">
+        <div style="display: flex;flex-wrap: nowrap;height: 40%;margin: 10px;">
+            <div id="trainTypeColor" style="width: 2%;border-radius: 10px;"></div>
+            <h1 id="trainName" style="margin: 0;"></h1>
+        </div>
+        <div id="lineContainer" style="display: none;flex-wrap: nowrap;height: 20%;margin: 10px;">
+            <div id="lineColor" style="width: 2%;border-radius: 10px;"></div>
+            <h3 id="lineName" style="margin: 0;"></h3>
+        </div>
+        <div style="margin: 10px;">
+            <h3>開往 <span id="destination">七堵</span></h3>
+        </div>
+    </div>
+    <div class="station-list">
+        
+    </div>
+</body>
+<script>
+    function getTrainTypeClass(typeCode) {
+            switch (typeCode) {
+                case '1': return 'ltd-express';  
+                case '2': return 'ltd-express';  
+                case '3': return 'ltd-express';  
+                case '4': return 'express';  
+                case '5': return 'semi-express';
+                case '6': return 'local';
+                case '7': return 'local';
+                case '10': return 'rapid';
+                case '11' : return 'ltd-express';
+                default: return '';
+            }
+        }
+    function timeToTimestamp(timeStr) {
+        // 取得今天的年月日
+        const now = new Date();
+        const [hours, minutes] = timeStr.split(':').map(Number);
+
+        // 用 UTC+8 的基準建立時間
+        // 注意：月份要 -1，因為 JS 月份是 0~11
+        const dateInUTC8 = new Date(
+            now.getFullYear(),
+            now.getMonth(),
+            now.getDate(),
+            hours,
+            minutes,
+            0,
+            0
+        );
+
+        // 把 UTC+8 時間轉成 UTC timestamp
+        // UTC+8 比 UTC 快 8 小時 → 減去 8 小時
+        return dateInUTC8.getTime();
+    }
+    function createTrainIcon(train) {
+            const isDown = true;
+            
+            // 建立列車容器
+            const trainWrapper = document.createElement("div");
+            //trainWrapper.className = `train train-${direction}`;
+            trainWrapper.className = `train`;
+
+            // 建立三角形 div（clip-path）
+            const triangle = document.createElement("div");
+            triangle.className = "triangle-arrow";
+            
+            // 建立列車圖像與內容容器
+            const iconWrapper = document.createElement("div");
+            iconWrapper.id = "train-icon"
+            iconWrapper.className = "train-icon";
+            iconWrapper.style.width = "40px";
+            iconWrapper.style.height = "40px";
+            iconWrapper.style.borderRadius = "5px";
+            iconWrapper.style.backgroundColor = "white";
+            iconWrapper.style.cursor = "pointer";
+            iconWrapper.style.overflow = "hidden";
+            iconWrapper.style.margin = "2px";
+
+            // 列車圖像
+            const img = document.createElement("img");
+            img.src = "train_down.png";
+            img.style.width = "40px";
+            img.style.height = "40px";
+            iconWrapper.appendChild(img);
+
+            // 區間車路線顏色
+            const lineColor = document.createElement("div");
+            lineColor.style.height = "3px";
+            lineColor.style.backgroundColor = lineToColor(lineCheckerSingle(train.TrainNo));
+            iconWrapper.appendChild(lineColor);
+
+            // 列車種別標籤
+            /*
+            const label = document.createElement("div");
+            label.style.height = "30px";
+            const typeClass = getTrainTypeClass(train.TrainTypeCode);
+            label.classList.add(typeClass);
+            label.style.color = "white";
+            label.style.textAlign = "center";
+            label.style.lineHeight = "25px";
+            label.style.fontSize = "10px"
+            label.textContent = train.TrainTypeName.Zh_tw + " " + train.TrainNo;
+            iconWrapper.appendChild(label);
+            */
+            // 綁定資料
+            /*
+            iconWrapper.dataset.trainNo = train.TrainNo;
+            iconWrapper.dataset.trainType = train.TrainTypeName.Zh_tw;
+            iconWrapper.dataset.stationName = train.StationName.Zh_tw;
+            iconWrapper.dataset.status = train.TrainStationStatus;
+            iconWrapper.dataset.delay = train.DelayTime;
+            
+
+            iconWrapper.addEventListener('click', () => {
+                const statusMap = {
+                    0: "進站中",
+                    1: "在站上",
+                    2: "已離站"
+                };
+                alert(
+                    `車次：${iconWrapper.dataset.trainNo}\n` +
+                    `類型：${iconWrapper.dataset.trainType}\n` +
+                    `目前站：${iconWrapper.dataset.stationName}\n` +
+                    `狀態：${statusMap[iconWrapper.dataset.status]}\n` +
+                    `延誤：${iconWrapper.dataset.delay} 分鐘`
+                );
+            });
+            */
+            // 插入順序
+        
+                trainWrapper.appendChild(iconWrapper);
+                trainWrapper.appendChild(triangle);
+
+            
+            return trainWrapper;
+        }
+    async function fetchTrainData(trainNo) {
+        
+        const response = await fetch(`https://rfeqserver.myqnapcloud.com/api/traininfo/THSR/GeneralTimetable/TrainNo?TrainNo=${trainNo}`);
+        //const positionResponse = await fetch(`https://rfeqserver.myqnapcloud.com/api/traininfo/TRA/TrainLiveBoard/TrainNo?TrainNo=${trainNo}`);
+
+        const result = await response.json();
+        //const position = await positionResponse.json();
+
+        const trainData = result[0].GeneralTimetable;
+        //const positionData = position.TrainLiveBoards[0];
+        const stopTimes = trainData.StopTimes;
+
+        //const delayTime = positionData?.DelayTime ?? 0;
+        const delayTime = 0;
+    
+        // 更新列車名稱與目的地
+        document.getElementById('trainName').innerText = "高鐵 " + trainNo
+        document.getElementById('trainTypeColor').className = "THSR"
+        document.getElementById('destination').innerText = trainData.GeneralTrainInfo.EndingStationName.Zh_tw;
+
+        const line = lineCheckerSingle(trainNo);
+        /*
+        if(line){
+            document.getElementById("lineContainer").style.display = "flex";
+            document.getElementById('lineName').innerText = line;
+            document.getElementById('lineColor').style.backgroundColor = lineToColor(line);
+        }
+        */
+        const container = document.querySelector('.station-list');
+        container.innerHTML = ''; // 清空原本的靜態內容
+    
+        stopTimes.forEach((stop, index) => {
+            if(!stop.ArrivalTime){
+                stop.ArrivalTime = stop.DepartureTime;
+            }
+            if(!stop.DepartureTime){
+                stop.DepartureTime = stop.ArrivalTime;
+            }
+            //建立車站
+            const station = document.createElement('div');
+            station.className = 'station';
+            station.innerHTML = `
+                <div class="station-name">${stop.StationName.Zh_tw}</div>
+                <div class="track-container">
+                    <div class="track-line"></div>
+                    <div class="station-dot"></div>
+                    <div class="train-container">
+                        
+                    </div>
+                    <div class="time-container">
+                            <p style="margin: 0">${stop.ArrivalTime} 到</p>
+                            <p style="margin: 0">${stop.DepartureTime} 發</p>
+                    </div>
+                </div>
+                <div></div>
+            `;
+            //增加列車位置
+            
+            console.log(Date.now() - timeToTimestamp(stop.ArrivalTime));
+            console.log(Date.now() - (timeToTimestamp(stop.DepartureTime)+60000))
+            if(Date.now() >= (timeToTimestamp(stop.ArrivalTime) + (delayTime*60000)) && Date.now() <= ((timeToTimestamp(stop.DepartureTime) + 60000 + (delayTime*60000)))){
+                console.log("train");
+                const train = createTrainIcon(trainData.GeneralTrainInfo);
+                station.querySelector(".train-container").appendChild(train);
+            }
+            
+            container.appendChild(station);
+    
+            // 如果不是最後一站，就加上 route 線段
+            if (index < stopTimes.length - 1) {
+                const route = document.createElement('div');
+                route.className = 'route';
+                route.innerHTML = `
+                    <div class="station-name"></div>
+                    <div class="track-container">
+                        <div class="track-line"></div>
+                        <div class="train-container">
+                        
+                        </div>
+                        <div class="time-container"></div>
+                    </div>
+                    <div></div>
+                `;
+                if(Date.now() > (timeToTimestamp(stop.DepartureTime) + 60000 + delayTime*60000) && Date.now() < (timeToTimestamp(stopTimes[index+1].ArrivalTime) + (delayTime*60000))){
+                    console.log("train");
+                    const train = createTrainIcon(trainData.GeneralTrainInfo);
+                    route.querySelector(".train-container").appendChild(train);
+                }
+                container.appendChild(route);
+            }
+        });
+        document.getElementById("train-icon").scrollIntoView({
+            behavior: "smooth",   // 平滑滾動
+            block: "center",       // 區塊對齊
+            inline: "nearest"
+        });
+    }
+    
+    // 範例：載入「278車次」的資料
+    const params = new URLSearchParams(window.location.search);
+    const trainNo = params.get("trainNo");
+    fetchTrainData(trainNo);
+</script>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/trainTypeColor.css" rel="stylesheet" />
+    <title>車站路線列表</title>
+    <style>
+        @keyframes slideInBounce {
+            0% { transform: translateX(-100%); opacity: 0; }
+            75% { transform: translateX(5%); opacity: 1; }
+            100% { transform: translateX(0); opacity: 1; }
+        }
+        .lineList { width: 100%; }
+        .line {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 90%;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: white;
+            opacity: 0;
+            animation: slideInBounce 0.5s cubic-bezier(0.25, 1.2, 0.5, 1) forwards;
+        }
+        .lineTitle, .lineDirection { margin: 10px; }
+    </style>
+</head>
+<body>
+    <nav><h1><a href="index.html">&lt;</a></h1></nav>
+    <div class="header">
+        <h4 id="stationName" style="margin: 0;">載入中...</h4>
+    </div>
+    <div class="lineList" id="lineList"></div>
+    
+    <script>
+        async function loadStationLines() {
+            const params = new URLSearchParams(window.location.search);
+            const uuid = params.get("uuid");
+            const date = params.get("date");
+            if (!uuid) return;
+
+            const response = await fetch("json/stations.json");
+            const stations = await response.json();
+            const station = stations.stations.find(s => s.uuid == uuid);
+            if (!station) return;
+
+            document.getElementById("stationName").textContent = station.stationName;
+            const lineList = document.getElementById("lineList");
+            lineList.innerHTML = "";
+
+            station.lines.forEach((line, index) => {
+                const lineDiv = document.createElement("div");
+                lineDiv.classList.add("line");
+                lineDiv.style.animationDelay = `${index * 0.2}s`;
+
+                lineDiv.innerHTML = `
+                    <div style="width: 5%; background-color: ${line.lineColor}; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></div>
+                    <div style="width: 95%;">
+                        <h1 class="lineTitle">${line.lineName}</h1>
+                        <div class="lineDirection">
+                            <p style="margin: 0;">${line.lineDescription}</p>
+                        </div>
+                    </div>
+                `;
+
+                // 🔹 新增點擊事件，根據 operator 選擇目標頁面
+                lineDiv.addEventListener("click", () => {
+                    let targetPage = "";
+                    if (line.operator === "TR") {
+                        targetPage = "stationTimeTable_TR.html";
+                    } else if (line.operator === "THSR") {
+                        targetPage = "stationTimeTable_THSR.html";
+                    } else if (line.operator === "TRTC") {
+                        targetPage = "stationTimeTable_TRTC.html";
+                    }
+
+                    if (targetPage) {
+                        const queryParams = new URLSearchParams({
+                            lineName: line.lineName,
+                            stationID: line.stationID,  // 確保 JSON 屬性拼字正確
+                            direction: line.direction,
+                            date: date
+                        }).toString();
+
+                        window.location.href = `${targetPage}?${queryParams}`;
+                    }
+                });
+
+                lineList.appendChild(lineDiv);
+            });
+        }
+
+
+        document.addEventListener("DOMContentLoaded", loadStationLines);
+    </script>
+</body>
+</html>

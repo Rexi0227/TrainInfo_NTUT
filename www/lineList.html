@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/trainTypeColor.css" rel="stylesheet" />
+    <title>路線列表</title>
+    <style>
+        @keyframes slideInBounce {
+            0% { transform: translateX(-100%); opacity: 0; }
+            75% { transform: translateX(5%); opacity: 1; }
+            100% { transform: translateX(0); opacity: 1; }
+        }
+        .lineList { width: 100%; }
+        .line {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 90%;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: white;
+            opacity: 0;
+            animation: slideInBounce 0.5s cubic-bezier(0.25, 1.2, 0.5, 1) forwards;
+        }
+        .lineTitle, .lineDirection { margin: 10px; }
+    </style>
+</head>
+<body>
+    <nav><h1><a href="index.html">&lt;</a></h1></nav>
+    <div class="header">
+        <h4 id="stationName" style="margin: 0;">列車即時動態</h4>
+    </div>
+    <div class="lineList" id="lineList">
+        <div class="line" onclick="window.location.href='trainPosition.html?line=縱貫線'">
+            <div style="width: 5%; background-color: #85dd00; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></div>
+                <div style="width: 95%;">
+                    <h1 class="lineTitle">縱貫線</h1>
+                    <div class="lineDirection">
+                        <p style="margin: 0;">基隆 - 臺北 - 桃園 -新竹 - 竹南</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="line" onclick="window.location.href='trainPosition.html?line=宜蘭線'">
+            <div style="width: 5%; background-color: red; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></div>
+                <div style="width: 95%;">
+                    <h1 class="lineTitle">宜蘭/北迴線</h1>
+                    <div class="lineDirection">
+                        <p style="margin: 0;">八堵 - 瑞芳 - 宜蘭 - 羅東 - (蘇澳) - 花蓮</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="line" onclick="window.location.href='trainPosition.html?line=山線'">
+            <div style="width: 5%; background-color: #2390fc; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></div>
+                <div style="width: 95%;">
+                    <h1 class="lineTitle">縱貫/山線</h1>
+                    <div class="lineDirection">
+                        <p style="margin: 0;">竹南 - 台中 - 彰化 - 嘉義 - 高雄 - 屏東</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="line" onclick="window.location.href='trainPosition.html?line=海線'">
+            <div style="width: 5%; background-color: #65fcf2; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></div>
+                <div style="width: 95%;">
+                    <h1 class="lineTitle">海線</h1>
+                    <div class="lineDirection">
+                        <p style="margin: 0;">竹南 - 後龍 - 清水 - 沙鹿 - 彰化</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--<div class="line" onclick="window.location.href='trainPosition.html?line=成追線'">
+            <div style="width: 5%; background-color: yellow; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></div>
+                <div style="width: 95%;">
+                    <h1 class="lineTitle">成追線</h1>
+                    <div class="lineDirection">
+                        <p style="margin: 0;">(竹南) - (清水) - 追分 - 成功 - (台中) - (后里)</p>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="line" onclick="window.location.href='trainPosition.html?line=屏東線'">
+            <div style="width: 5%; background-color: #8f14f5; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></div>
+                <div style="width: 95%;">
+                    <h1 class="lineTitle">屏東/南迴線</h1>
+                    <div class="lineDirection">
+                        <p style="margin: 0;">屏東 - 潮州 - 枋寮 - 知本 - 臺東</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="line" onclick="window.location.href='trainPosition.html?line=臺東線'">
+            <div style="width: 5%; background-color: #054d01; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></div>
+                <div style="width: 95%;">
+                    <h1 class="lineTitle">臺東線</h1>
+                    <div class="lineDirection">
+                        <p style="margin: 0;">屏東 - 潮州 - 枋寮 - 知本 - 臺東</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

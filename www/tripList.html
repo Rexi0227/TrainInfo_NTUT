@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/trainTypeColor.css" rel="stylesheet" />
+    <script src="js/trainSchedule.js"></script>
+    <script src="js/lineChecker.js"></script>
+    <title>TrainInfo</title>
+</head>
+<style>
+    .plan{
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .tripItem{
+        background-color: #f5f5f5;
+        margin: 10px;
+        margin-top: 0;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        /*width: 100%;*/
+        border-radius: 10px;
+    }
+    .departureAndArrival{
+        display: flex;
+        align-items: center;
+
+    }
+    .timeAndTrain{
+        
+        display: flex;
+        align-items: center;
+    }
+    .tripTrain{
+        width: 50%;
+        margin: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .buttonsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .editBtn {
+        width: 40%;
+        max-width: 400px;
+        padding: 10px 15px;
+        font-size: 18px;
+        border: 2px solid #007bff;
+        border-radius: 25px;
+        outline: none;
+        margin: 15px;
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .editBtn:hover {
+        background-color: #007bff;
+        color: white;
+    }
+    .delBtn {
+        width: 40%;
+        max-width: 400px;
+        padding: 10px 15px;
+        font-size: 18px;
+        border: 2px solid #dc3545;
+        border-radius: 25px;
+        outline: none;
+        margin: 15px;
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .delBtn:hover {
+        background-color: #a71d2a;
+        color: white;
+    }
+    
+</style>
+<body>
+    <div class="header">
+        <h3 style="margin: 0;">旅程清單</h3>
+    </div>
+    <div id="trips" class="plan">
+         <div class="tripItem">
+            <div class="departureAndArrival">
+                <div style="width: 25%;margin: 10px;display: flex;justify-content: center;"><h2>基隆</h2></div>
+                <div style="width: 50%;border: solid 1px black;height: 0px;"></div>
+                <div style="width: 25%;margin: 10px;display: flex;justify-content: center;"><h2>臺北</h2></div>
+            </div>
+           <div class="buttonsContainer">
+                <button class="editBtn" onclick="">編輯行程</button>
+                <button class="delBtn" onclick="">刪除行程</button>
+            </div>
+         </div>
+    </div>
+</body>
+<script>
+    /*----------刪除該旅程----------*/
+    function deleteTrip(tripId) {
+        for (let i = 0; i < tripList.length; i++) {
+            console.log(tripList[i]);
+            if (tripList[i].id === tripId) {
+                tripList.splice(i, 1); // 刪除該項目
+                localStorage.setItem("tripList",JSON.stringify(tripList));
+                location.href = location.href;
+                break; // 找到後就跳出
+            }
+        }
+    }
+    /*----------main----------*/
+    let tripList = JSON.parse(localStorage.getItem("tripList"));
+    const tripsContainer = document.getElementById("trips");
+    tripsContainer.innerHTML = "";
+    tripList.forEach(trip => {
+        const tripElement = document.createElement("div");
+        tripElement.classList.add("tripItem");
+        tripElement.innerHTML = `
+            <div class="departureAndArrival">
+                <div style="width: 25%;margin: 10px;display: flex;justify-content: center;"><h2>${trip.trips[0].startStation.stationName}</h2></div>
+                <div style="width: 50%;border: solid 1px black;height: 0px;"></div>
+                <div style="width: 25%;margin: 10px;display: flex;justify-content: center;"><h2>${trip.trips[trip.trips.length -1].endStation.stationName}</h2></div>
+            </div>
+            <div class="timeAndTrain">
+                <div style="width: 25%;margin: 10px;margin-top: 0;margin-bottom: 0;display: flex;justify-content: center;"><b>${trip.trips[0].departureTime}</b></div>
+                <div class="tripTrain"><b>${trip.trips.length}個車次</b></div>
+                <div style="width: 25%;margin: 10px;margin-top: 0;margin-bottom: 0;display: flex;justify-content: center;"><b>${trip.trips[trip.trips.length -1].arrivalTime}</b></div>
+            </div>
+            <div class="buttonsContainer">
+                <button class="editBtn">編輯行程</button>
+                <button class="delBtn">刪除行程</button>
+            </div>
+        `;
+        tripElement.querySelector(".editBtn").addEventListener("click", () => window.location.href = `tripPlan.html?id=${trip.id}`);
+        tripElement.querySelector(".delBtn").addEventListener("click", () => deleteTrip(trip.id));
+        tripsContainer.appendChild(tripElement);
+    });
+</script>
+</html>

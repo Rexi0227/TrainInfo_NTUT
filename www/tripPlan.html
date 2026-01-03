@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/trainTypeColor.css" rel="stylesheet" />
+    <script src="js/trainSchedule.js"></script>
+    <script src="js/lineChecker.js"></script>
+    <script src="js/metroParser.js"></script>
+    <title>TrainInfo</title>
+</head>
+<style>
+    .select{
+        width:50%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-color: white;
+        text-align: center;
+    }
+    .selected{
+        background-color: #007bff;
+        color: white;
+    }
+    .plan{
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .buttonsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tripItem{
+        background-color: #f5f5f5;
+        margin: 10px;
+        margin-top: 0;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        /*width: 100%;*/
+        border-radius: 10px;
+    }
+    
+    .timeAndTrain{
+        
+        display: flex;
+        align-items: center;
+    }
+    .tripTrain{
+        width: 50%;
+        margin: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    #searchBtn {
+        width: 80%;
+        max-width: 400px;
+        padding: 10px 15px;
+        font-size: 18px;
+        border: 2px solid #007bff;
+        border-radius: 25px;
+        outline: none;
+        margin-top: 15px;
+        background-color: white;
+        color: black;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    #searchBtn:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+    #searchLittleBtn {
+        width: 25%;
+        font-size: 15px;
+        border: 2px solid #007bff;
+        border-radius: 10px;
+        outline: none;
+        margin: 10px;
+        background-color: white;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+    #searchLittleBtn:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+    /* 🔹 覆蓋層樣式 */
+    .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5); /* 半透明背景 */
+        display: none; /* 預設隱藏 */
+        justify-content: center;
+        align-items: center;
+        z-index: 9999; /* 確保在最上層 */
+    }
+
+    /* 🔹 中央內容框 */
+    .overlay-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 15px;
+        width: 80%;
+        max-width: 400px;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    /* 🔹 按鈕樣式 */
+    .overlayBtn {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 18px;
+        border: 2px solid #007bff;
+        border-radius: 10px;
+        background-color: white;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .overlayBtn:hover {
+        background-color: #007bff;
+        color: white;
+    }
+
+    /*----中央內容框內----*/
+    @keyframes slideInBounce {
+        0% { transform: translateX(-100%); opacity: 0; }
+        75% { transform: translateX(5%); opacity: 1; }
+        100% { transform: translateX(0); opacity: 1; }
+    }
+    .stationName {
+        width: 80%;
+        max-width: 400px;
+        padding: 10px 15px;
+        margin: 10px;
+        font-size: 18px;
+        border: 2px solid #007bff;
+        border-radius: 25px;
+        outline: none;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    #searchResults {
+        width: 80%;
+        max-width: 400px;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: 125px;
+        z-index: 1000;
+        display: none;
+    }
+    .search-item {
+        padding: 10px;
+        cursor: pointer;
+        border-bottom: 1px solid #eee;
+    }
+    .search-item:last-child {
+        border-bottom: none;
+    }
+    .search-item:hover {
+        background: #f0f0f0;
+    }
+    #selectDate {
+        width: 80%;
+        max-width: 400px;
+        padding: 10px 15px;
+        font-size: 18px;
+        border: 2px solid #28a745;
+        border-radius: 25px;
+        outline: none;
+        margin-top: 15px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+    }
+    #linelist {
+        display: flex;
+        align-items: center; 
+        width: 90%;
+        margin: 10px;
+        
+    }
+    .line {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: white;
+        opacity: 0;
+        animation: slideInBounce 0.5s cubic-bezier(0.25, 1.2, 0.5, 1) forwards;
+    }
+    .lineTitle {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .lineDirection {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .train {
+        display: flex;
+        width: 100%;
+        height: 50px;
+        margin: 10px 0;
+    }
+    .station{
+        display: flex;
+        align-items: center;
+        justify-content:space-evenly;
+    }
+</style>
+<body>
+    <div class="header">
+        <h3 style="margin: 0;">規劃旅程</h3>
+    </div>
+    <div style="width: calc(100% - 20px);margin: 10px;">
+        <div style="display: flex;">
+            <div id="toFast" class="select selected" style="margin-right: 5px;" onclick="toFast()">
+                <b><p>快速</p></b>
+            </div>
+            <div id="toCustom" class="select" style="margin-left: 5px;" onclick="toCustom()">
+                <b><p>自訂</p></b>
+            </div>
+        </div>
+        <div id="fast" class="plan" style="display: none;">
+            <input type="text" id="stationName" placeholder="起點站"/>
+            <input type="text" id="stationName" placeholder="目的地"/>
+            <button id="searchBtn">查詢</button>
+        </div>
+        <div id="custom" class="plan" style="display: block;">
+            <!--
+            <div class="tripItem">
+                <div class="station">
+                    <div style="width: 25%;margin: 10px;display: flex;justify-content: center;"><h2>基隆</h2></div>
+                
+                    <div style="width: 50%;border: solid 1px black;height: 0px;"></div>
+                    <div style="width: 25%;margin: 10px;display: flex;justify-content: center;"><h2>臺北</h2></div>
+                </div>
+                <div class="timeAndTrain">
+                    <div style="width: 25%;margin: 10px;margin-top: 0;margin-bottom: 0;display: flex;justify-content: center;"><b>06:12</b></div>
+                    <div class="tripTrain"><b>自強 105</b></div>
+                    <div style="width: 25%;margin: 10px;margin-top: 0;margin-bottom: 0;display: flex;justify-content: center;"><b>06:56</b></div>
+                </div>
+            </div>
+            -->
+        </div>
+        <div class="buttonsContainer">
+            <button id="searchBtn" onclick="addTrip(trips)">+新增路徑</button>
+            <button id="searchBtn" onclick="saveTrip(trips)">儲存行程</button>
+        </div>
+    </div>
+
+    <div id="overlay" class="overlay">
+        <div class="overlay-content">
+            <h2>新增項目</h2>
+            <input type="text" id="startStation" class="stationName" placeholder="輸入起點站"/>
+            <input type="date" id="selectDate" />
+            <div id="lineList" style="max-height: 200px;overflow-y: scroll;overflow-x: hidden;"></div>
+            <div id="trainList" style="width:100%;max-height: 200px;overflow-y: scroll;overflow-x: hidden;"></div>
+            <h3 id="selectDest" style="display: none;text-align: left;">請選擇到達站:</h3>
+            <div id="stopList" style="width:100%;max-height: 200px;overflow-y: scroll;overflow-x: hidden;"></div>
+            <div id="searchResults"></div>
+            <button class="overlayBtn" onclick="closeOverlay()">取消</button>
+        </div>
+    </div>
+    
+</body>
+<script src="js/utils.js"></script>
+<script>
+    function toFast(){
+        document.getElementById("fast").style.display = "block";
+        document.getElementById("custom").style.display = "none";
+        document.getElementById("toFast").className = 'select selected';
+        document.getElementById("toCustom").className = 'select';
+    }
+    function toCustom(){
+        document.getElementById("fast").style.display = "none";
+        document.getElementById("custom").style.display = "block";
+        document.getElementById("toCustom").className = 'select selected';
+        document.getElementById("toFast").className = 'select';
+    }
+
+    function searchRoute(start, end){
+        
+    }
+
+    function openOverlay() {
+        document.getElementById("overlay").style.display = "flex";
+
+        // 清空內容
+        document.getElementById("startStation").value = "";
+        document.getElementById("lineList").innerHTML = "";
+        document.getElementById("trainList").innerHTML = "";
+        document.getElementById("selectDest").style.display = "none";
+        document.getElementById("stopList").innerHTML = "";
+        document.getElementById("searchResults").innerHTML = "";
+
+        // 預設日期為今天
+        const dateInput = document.getElementById("selectDate");
+        const today = new Date();
+        const yyyy = today.getFullYear();
+        const mm = String(today.getMonth() + 1).padStart(2, '0');
+        const dd = String(today.getDate()).padStart(2, '0');
+        dateInput.value = `${yyyy}-${mm}-${dd}`;
+    }
+
+    function closeOverlay() {
+        document.getElementById("overlay").style.display = "none";
+    }
+
+    function handleStationInput(input, resultBox, trip){
+        //----------彈出視窗內程式----------//
+        const keyword = input.value.trim();
+        resultBox.innerHTML = "";
+        if (keyword === "") {
+            resultBox.style.display = "none";
+            return;
+        }
+
+        const filteredStations = stations.filter(station =>
+            station.stationName.includes(keyword) ||
+            (station.stationNameTHSR && station.stationNameTHSR.includes(keyword))
+        );
+
+        if (filteredStations.length === 0) {
+            resultBox.style.display = "none";
+            return;
+        }
+
+        filteredStations.forEach(station => {
+            console.log(station);
+            const nameToShow = station.stationName.includes(keyword) ? station.stationName : station.stationNameTHSR;
+            const div = document.createElement("div");
+            div.textContent = nameToShow;
+            div.className = "search-item";
+                
+            div.addEventListener("click", () => handleStationSelect(input, nameToShow, resultBox, station, trip))
+            resultBox.appendChild(div);
+        });
+        
+        resultBox.style.display = "block";
+    }
+
+    // ----------選定車站後邏輯----------//
+    function handleStationSelect(input, nameToShow, resultBox, station, trip){
+
+        trip.startStation = station;// 出發站
+        //selectedUUID = station.uuid;
+        input.value = nameToShow;
+        resultBox.style.display = "none";
+
+        // 指定linelist元素
+        const lineList = document.getElementById("lineList");
+        lineList.innerHTML = "";
+
+        //顯示所有路線
+        station.lines.forEach((line, index) => {
+            const lineDiv = document.createElement("div");
+            lineDiv.classList.add("line");
+            lineDiv.style.animationDelay = `${index * 0.2}s`;
+
+            lineDiv.innerHTML = `
+                                <div style="width: 5%; background-color: ${line.lineColor}; border-top-left-radius: 10px; border-bottom-left-radius: 10px;"></div>
+                                <div style="width: 95%; display: flex">
+                                    <h3 class="lineTitle">${line.lineName}</h3>
+                                    <div class="lineDirection">
+                                        ${line.lineDescription}
+                                    </div>
+                                </div>
+            `;
+            lineDiv.addEventListener("click", () => handleLineSelect(lineList, line, trip))
+            lineList.appendChild(lineDiv);
+        });
+                        /*
+                        trips.push(trip);
+                        render(trips);
+                        return trips;
+                        */
+    }
+
+    //----------選定路線後邏輯----------//
+    async function handleLineSelect(lineList, line, trip){
+
+        let targetPage = "";
+        lineList.innerHTML = "";
+        const trainList = document.getElementById("trainList");
+        trainList.innerHTML = "";
+
+        // 台鐵時刻表邏輯
+        if (line.operator === "TR") {
+            const stationID = line.stationID;
+            const date = document.getElementById("selectDate").value;
+            const lineName = line.lineName;
+            const direction = line.direction;
+
+            const station = stations.find(s =>
+                s.lines.some(line => line.stationID == stationID)
+            );
+
+            let lineInStation = null;
+            if (station) {
+                lineInStation = station.lines.find(line => line.stationID == stationID && line.lineName == lineName && line.direction == direction);
+                console.log(line)
+                document.getElementById("stationName").innerHTML = lineInStation.stationNameInLine;
+            }
+
+            const groupedTrains = await fetchTRtrainSchedule(stationID,date,direction,lineInStation);
+
+            let html = "";
+            const trainObjects = [];  // 存下來以便後續綁定事件
+
+            Object.keys(groupedTrains).sort().forEach(hour => {
+                //html += `<div class='hour'><p style='margin-left:10px'>${hour}時</p></div>`;
+                groupedTrains[hour].forEach((train, index) => {
+                    const typeClass = getTrainTypeClass(train.TrainTypeCode);
+                    const typeZh_tw = getTrainType(train.TrainTypeCode);
+
+                    // 給每個班次一個唯一 ID
+                    const trainId = `train-${hour}-${index}`;
+                    trainObjects.push({ id: trainId, train });
+
+                    html += `
+                                                <div class='train' id='${trainId}' style="cursor: pointer;">
+                                                    <div style='display: flex; justify-content: center; width: 35%; text-align: center;'>
+                                                        <div style='width: 90%;'>
+                                                            <div class='trainType ${typeClass}'>
+                                                                <p style="font-size: 1em;margin: 10px;font-weight: bold;">${typeZh_tw}</p>
+                                                            </div>
+                                                        </div>
+                                                        <div style='width: 20%;'>
+                                                            <h5>${train.TrainNo}</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div style='display: flex; justify-content: center; width: 25%; align-items: center; text-align: center;'><h2 style='margin:0'>${train.DepartureTime}</h2></div>
+                                                    <div style='display: flex; justify-content: center; width: 20%; align-items: center; text-align: center;'><h2 style='margin:0'>${train.EndingStationName.Zh_tw}</h2></div>
+                                                </div>
+                                                <hr />
+                    `;
+                });
+            });
+
+            trainList.innerHTML = html;
+
+            // 綁定事件
+            trainObjects.forEach(({ id, train }) => {
+                document.getElementById(id).addEventListener('click', () => handleTRtrainSelect(trainList, train, trip))
+            })
+                                            
+        } else if (line.operator === "THSR") {
+            const stationID = line.stationID;
+            const date = document.getElementById("selectDate").value;
+            const lineName = line.lineName;
+            const direction = line.direction;
+
+            const station = stations.find(s =>
+                s.lines.some(line => line.stationID == stationID)
+            );
+            console.log(station)
+            let lineInStation = null;
+            if (station) {
+                lineInStation = station.lines.find(line => line.stationID == stationID && line.lineName == lineName && line.direction == direction);
+                console.log(lineInStation)
+                //document.getElementById("stationName").innerHTML = lineInStation.stationNameInLine;
+            }
+
+            const groupedTrains = await fetchTHSRtrainSchedule(stationID,date,direction,lineInStation);
+
+            let html = "";
+            const trainObjects = [];  // 存下來以便後續綁定事件
+
+            Object.keys(groupedTrains).sort().forEach(hour => {
+                //html += `<div class='hour'><p style='margin-left:10px'>${hour}時</p></div>`;
+                groupedTrains[hour].forEach((train, index) => {
+                    const typeClass = "THSR"
+                    const typeZh_tw = "高鐵";
+
+                    // 給每個班次一個唯一 ID
+                    const trainId = `train-${hour}-${index}`;
+                    trainObjects.push({ id: trainId, train });
+
+                    html += `
+                                                <div class='train' id='${trainId}' style="cursor: pointer;">
+                                                    <div style='display: flex; justify-content: center; width: 35%; text-align: center;'>
+                                                        <div style='width: 90%;'>
+                                                            <div class='trainType ${typeClass}'>
+                                                                <p style="font-size: 1em;margin: 10px;font-weight: bold;">${typeZh_tw}</p>
+                                                            </div>
+                                                        </div>
+                                                        <div style='width: 20%;'>
+                                                            <h5>${train.TrainNo}</h5>
+                                                        </div>
+                                                    </div>
+                                                    <div style='display: flex; justify-content: center; width: 25%; align-items: center; text-align: center;'><h2 style='margin:0'>${train.DepartureTime}</h2></div>
+                                                    <div style='display: flex; justify-content: center; width: 20%; align-items: center; text-align: center;'><h2 style='margin:0'>${train.EndingStationName.Zh_tw}</h2></div>
+                                                </div>
+                                                <hr />
+                    `;
+                });
+            });
+
+            trainList.innerHTML = html;
+
+            // 綁定事件
+            trainObjects.forEach(({ id, train }) => {
+                document.getElementById(id).addEventListener('click', () => handleTHSRtrainSelect(trainList, train, trip))
+            })
+
+        } else if (line.operator === "TRTC") {
+            const stationID = line.stationID;
+            const date = document.getElementById("selectDate").value;
+            const lineName = line.lineName;
+            const direction = line.direction;   
+            
+            const station = stations.find(s =>
+                s.lines.some(line => line.stationID == stationID)
+            );
+
+            if (station) {
+                const line = station.lines.find(line => line.stationID == stationID && line.lineName == lineName && line.direction == direction);
+                console.log(line)
+                document.getElementById("stationName").innerHTML = line.stationNameInLine;
+                if (line && line.lineChecker) {
+                    stationLineChecker = line.lineChecker;
+                }
+            }
+
+            const groupedTrains = await fetchMRTtrainSchedule(stationID,date,direction,line);
+
+            let html = "";
+            const trainObjects = [];  // 存下來以便後續綁定事件
+
+            Object.keys(groupedTrains).sort().forEach(hour => {
+                groupedTrains[hour].forEach((train, index) => {
+                    const typeClass = lineName;
+                    const typeZh_tw = lineName;
+
+                    // 給每個班次一個唯一 ID
+                    const trainId = `train-${hour}-${index}`;
+                    trainObjects.push({ id: trainId, train });
+
+                    html += `
+                        <div class='train' id='${trainId}' style="cursor: pointer;">
+                            <div style='display: flex; justify-content: center; width: 35%; text-align: center;'>
+                                <div style='width: 90%;'>
+                                    <div class='trainType ${typeClass}'>
+                                        <p style="font-size: 1em;margin: 10px;font-weight: bold;">${typeZh_tw}</p>
+                                    </div>
+                                </div>
+                                <div style='width: 20%;'>
+                                    <h5></h5>
+                                </div>
+                            </div>
+                            <div style='display: flex; justify-content: center; width: 25%; align-items: center; text-align: center;'><h2 style='margin:0'>${train.DepartureTime}</h2></div>
+                            <div style='display: flex; justify-content: center; width: 40%; align-items: center; text-align: center;'><h2 style='margin:0'>${train.destination.Zh_tw}</h2></div>
+                        </div>
+                        <hr />
+                    `;
+                })
+                
+            })
+            trainList.innerHTML = html;
+
+            // 綁定事件
+            trainObjects.forEach(({ id, train }) => {
+                document.getElementById(id).addEventListener('click', () => handleTRTCtrainSelect(trainList, lineName, train, direction, stationID, dateToWeekday(date), trip))
+            })
+        }
+    }
+
+    //----------選定列車後邏輯----------//
+    async function handleTRtrainSelect(trainList, train, trip, trips){
+
+        trip.train = train;//列車
+
+        const response = await fetch(`https://rfeqserver.myqnapcloud.com/api/traininfo/TRA/GeneralTimetable/TrainNo?TrainNo=${train.TrainNo}`);
+        const result = await response.json();
+        const trainData = result[0].GeneralTimetable;
+        const stopTimes = trainData.StopTimes;
+
+        trainList.innerHTML = "";// 清空列車列表
+        document.getElementById("selectDest").style.display = "block";
+
+        // 車站列表
+        const container = document.getElementById('stopList');
+        container.innerHTML = ''; // 清空原本的靜態內容
+
+        const stopObjects = [];
+        let passStart = false
+        stopTimes.forEach((stop, index) => {
+            if(passStart){
+                //建立車站
+                const station = document.createElement('div');
+                station.className = 'station';
+                station.id = stop.StationID;
+                station.innerHTML = `
+                                                        <h3 style="display: flex;justify-content:center;">${stop.StationName.Zh_tw}</h3>
+                                                        <div style="display: flex;justify-content:center;">
+                                                            <p style="margin-right: 10px">${stop.ArrivalTime} 到</p>
+                                                        </div>
+                                                        <div></div>
+                `;
+                container.appendChild(station);
+                container.innerHTML += "<hr/>";
+
+                stopObjects.push({ id: stop.StationID, stop});
+            }
+            // 若該車站為設定的起點站
+            if(stop.StationName.Zh_tw == trip.startStation.stationName){
+                trip.departureTime = stop.DepartureTime; //出發時間
+                passStart = true;
+            }
+
+                                               
+        });
+        stopObjects.forEach(({ id, stop }) => {
+            document.getElementById(id).addEventListener('click',() => handleEndSelectTR(stop, trip))
+        })                           
+    }
+    //----------選定列車後邏輯----------//
+    async function handleTHSRtrainSelect(trainList, train, trip, trips){
+
+        trip.train = train;//列車
+
+        const response = await fetch(`https://rfeqserver.myqnapcloud.com/api/traininfo/THSR/GeneralTimetable/TrainNo?TrainNo=${train.TrainNo}`);
+        const result = await response.json();
+        const trainData = result[0].GeneralTimetable;
+        const stopTimes = trainData.StopTimes;
+
+        trainList.innerHTML = "";// 清空列車列表
+        document.getElementById("selectDest").style.display = "block";
+
+        // 車站列表
+        const container = document.getElementById('stopList');
+        container.innerHTML = ''; // 清空原本的靜態內容
+
+        const stopObjects = [];
+        let passStart = false
+        stopTimes.forEach((stop, index) => {
+            if(passStart){
+                //建立車站
+                const station = document.createElement('div');
+                station.className = 'station';
+                station.id = stop.StationID;
+                station.innerHTML = `
+                                                        <h3 style="display: flex;justify-content:center;">${stop.StationName.Zh_tw}</h3>
+                                                        <div style="display: flex;justify-content:center;">
+                                                            <p style="margin-right: 10px">${stop.ArrivalTime} 到</p>
+                                                        </div>
+                                                        <div></div>
+                `;
+                container.appendChild(station);
+                container.innerHTML += "<hr/>";
+
+                stopObjects.push({ id: stop.StationID, stop});
+            }
+            // 若該車站為設定的起點站
+            if(stop.StationName.Zh_tw == trip.startStation.stationNameTHSR || "高鐵" + stop.StationName.Zh_tw == trip.startStation.stationNameTHSR){
+                trip.departureTime = stop.DepartureTime; //出發時間
+                passStart = true;
+            }
+
+                                               
+        });
+        stopObjects.forEach(({ id, stop }) => {
+            document.getElementById(id).addEventListener('click',() => handleEndSelectTR(stop, trip))
+        })                           
+    }
+
+    async function handleTRTCtrainSelect(trainList, line, train, direction, station, weekday, trip){
+
+        const lineType = train.routeId;
+        const departureTime = train.DepartureTime;
+
+        // 讀取時刻表
+        const response = await fetch(`json/TRTC/timetable.json`);
+        const timetable = await response.json();
+
+        // 讀取站間時間
+        const response2 = await fetch("json/S2STravelTime/TRTC.json");
+        const S2S = await response2.json();
+        
+        // 重建時刻表
+        const trainData = reconstructTrain(lineType, direction, station, { time: departureTime }, {"timetableArray":timetable, "travelTimesArray":S2S, "toleranceSeconds":120, weekday: weekday});
+        const stopTimes = trainData.stops;
+        console.log(stopTimes)
+        trip.train = trainData;//列車
+        trip.train.TrainTypeName = {};
+        trip.train.TrainTypeName.Zh_tw = line;
+        trip.train.TrainNo = "";
+
+        trainList.innerHTML = "";// 清空列車列表
+        document.getElementById("selectDest").style.display = "block";
+
+        // 車站列表
+        const container = document.getElementById('stopList');
+        container.innerHTML = ''; // 清空原本的靜態內容
+
+        const stopObjects = [];
+        let passStart = false
+        for (const [index, stop] of stopTimes.entries()) {
+            if(passStart){
+                //建立車站
+                const station = document.createElement('div');
+                station.className = 'station';
+                station.id = stop.stationId;
+                station.innerHTML = `
+                    <h3 style="display: flex;justify-content:center;">${await stationID2Name(stop.stationId)}</h3>
+                    <div style="display: flex;justify-content:center;">
+                        <p style="margin-right: 10px">${stop.arrivalTime} 到</p>
+                    </div>
+                    <div></div>
+                `;
+                console.log(stop.arrivalTime)
+                container.appendChild(station);
+                container.innerHTML += "<hr/>";
+                console.log(stop)
+                stopObjects.push({ id: stop.stationId, stop});
+
+            }
+            // 若該車站為設定的起點站
+            console.log(normalizeStationName(await stationID2Name(stop.stationId)) , normalizeStationName(trip.startStation.stationName))
+            if(normalizeStationName(await stationID2Name(stop.stationId)) == normalizeStationName(trip.startStation.stationName)){
+                trip.departureTime = stop.departureTime; //出發時間
+                passStart = true;
+            }
+        };
+        stopObjects.forEach(({ id, stop }) => {
+            document.getElementById(id).addEventListener('click',() => handleEndSelectTRTC(stop, trip))
+        })    
+        
+    }
+
+    function handleEndSelectTR(stop, trip){
+        const endStationName = stop.StationName.Zh_tw;
+        for(const station of stations){
+            if(station.stationName == endStationName){
+                trip.endStation = station; //到達站
+            }
+        }
+        
+        trip.arrivalTime = stop.ArrivalTime; //到達時間
+        console.log(trip);
+        trips.trips.push(trip);
+        render();
+        closeOverlay();
+    }
+
+    async function handleEndSelectTRTC(stop, trip){
+        const endStationName = await stationID2Name(stop.stationId);
+        for (const station of stations) {
+            // 判斷 station.lines 陣列中是否有任何元素的 stationID 等於 stop.stationId
+            if (station.lines.some(line => line.stationID === stop.stationId)) {
+                trip.endStation = station; // 到達站
+            }
+        }
+        console.log(stop);
+        trip.arrivalTime = stop.arrivalTime; //到達時間
+        console.log(trip);
+        trips.trips.push(trip);
+        render();
+        closeOverlay();
+    }
+
+    function addTrip(){
+        let trip = {
+            startStation: null,
+            endStation: null,
+            departureTime: "",
+            arrivalTime: "",
+            train: ""
+        };
+        openOverlay();
+        /*----------輸入框事件監聽----------*/
+        const input = document.getElementById("startStation");
+        const resultBox = document.getElementById("searchResults");
+        input.addEventListener("input", () => handleStationInput(input, resultBox, trip))
+            
+
+        // 點其他地方時隱藏下拉選單
+        document.addEventListener("click", (event) => {
+            if (!input.contains(event.target) && !resultBox.contains(event.target)) {
+                resultBox.style.display = "none";
+            }
+        });
+    }
+
+    function render(){
+        const container = document.getElementById("custom");
+        container.innerHTML = "";
+        console.log(trips);
+        trips.trips.forEach((trip) => {
+            const tripContainer = document.createElement('div');
+            tripContainer.className = "tripItem";
+            tripContainer.innerHTML = `
+                <div class="station">
+                    <div style="width: 25%;margin: 10px;display: flex;justify-content: center;"><h2>${trip.startStation.stationName}</h2></div>
+                
+                    <div style="width: 50%;border: solid 1px black;height: 0px;"></div>
+                    <div style="width: 25%;margin: 10px;display: flex;justify-content: center;"><h2>${trip.endStation.stationName}</h2></div>
+                </div>
+                <div class="timeAndTrain">
+                    <div style="width: 25%;margin: 10px;margin-top: 0;margin-bottom: 0;display: flex;justify-content: center;"><b>${trip.departureTime}</b></div>
+                    <div class="tripTrain"><b>${trip.train.TrainTypeName.Zh_tw.replace(/\(.*?\)/g, '').trim()} ${trip.train.TrainNo}</b></div>
+                    <div style="width: 25%;margin: 10px;margin-top: 0;margin-bottom: 0;display: flex;justify-content: center;"><b>${trip.arrivalTime}</b></div>
+                </div>
+            `;
+            container.appendChild(tripContainer)
+        });
+    }
+
+    /*----------儲存行程----------*/
+    function saveTrip(trips){
+        let tripList = JSON.parse(localStorage.getItem("tripList"));
+
+        // 若為首次儲存，則創建旅程列表
+        if(!tripList){
+            tripList = [];
+        }
+        
+        // 若無id，則設當前時間為id
+        if(!trips.id){
+            trips.id = Date.now().toString();
+        }
+        console.log(trips)
+        for(let i = 0; i<tripList.length; i++){
+            if(tripList[i].id == trips.id){
+                tripList[i] = trips;
+                localStorage.setItem("tripList",JSON.stringify(tripList));
+                alert("儲存成功");
+                window.location.href = "tripList.html";
+                return;
+
+            }
+        }
+        tripList.push(trips);
+        localStorage.setItem("tripList",JSON.stringify(tripList));
+        alert("儲存成功");
+        window.location.href = "tripList.html";
+        
+    }
+
+   /*----------main----------*/ 
+    let trips = {"id":"", "trips":[]};
+
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get("id");
+
+    fetch("json/stations.json")
+    .then(response => response.json())
+    .then(data => {
+        stations = data.stations;
+    })
+    .catch(error => console.error("無法加載車站數據：", error));
+    
+    // 如果有指定現有trips id 則讀取trips
+    const tripList = JSON.parse(localStorage.getItem("tripList"));
+    for(const t of tripList){
+        if(t.id == id){
+            trips = t;
+            render();
+        }
+    }
+    
+</script>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/common.css" rel="stylesheet" />
+    <title>TrainInfo</title>
+</head>
+<script src="js/metroParser.js"></script>
+<script src="js/components.js"></script>
+<script>
+    Promise.all([
+        fetch("json/TRTC/timetable.json").then(res => res.json()),
+        fetch("json/S2STravelTime/TRTC.json").then(res => res.json())
+    ])
+    .then(([data1, data2]) => {
+        let res = reconstructTrain("O-1", 1, "O10", { sequence: 20 }, {"timetableArray":data1, "travelTimesArray":data2, "toleranceSeconds":120, weekday: 'Monday'});
+        console.log(JSON.stringify(res));
+    })
+    
+</script>
+<style>
+    @keyframes slideInBounce {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        75% {
+            transform: translateX(5%);
+            opacity: 1;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    .menuItem{
+        display: block;
+        width: 50%;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: white;
+        opacity: 0; /* 初始時隱藏 */
+        animation: slideInBounce 0.5s cubic-bezier(0.25, 1.2, 0.5, 1) forwards;  
+        align-items: center;
+        
+    }
+    .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+  }
+</style>
+<body>
+    <div class="header">
+        <h3 style="margin: 0;">首頁</h3>
+    </div>
+    <div style="width: 100%;display: flex;">
+        <div class="menuItem" style="width: 100%;" onclick="window.location.href='lineList.html'">
+            <h4 style="text-align: center;">列車即時位置</h4>
+        </div>  
+    </div>
+    <div style="width: 100%;display: flex;">
+        <div class="menuItem" style="width: 100%;" onclick="window.location.href='tripPlan.html'">
+            <h4 style="text-align: center;">規劃旅程</h4>
+        </div>  
+    </div>
+    <div style="width: 100%;display: flex;">
+        <div class="menuItem" onclick="window.location.href='stationSearch.html'">
+            <h4 style="text-align: center;">依車站查詢</h4>
+        </div>
+        <div class="menuItem" onclick="window.location.href='trainSearch.html'">
+            <h4 style="text-align: center;">依車次查詢</h4>
+        </div>
+    </div>
+    <div id="footer-container"></div>
+</body>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/common.css" rel="stylesheet" />
+    <link href="css/trainTypeColor.css" rel="stylesheet" />
+    <title>新竹站路線列表</title>
+    <style>
+        #stationName {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px 15px;
+            font-size: 18px;
+            border: 2px solid #007bff;
+            border-radius: 25px;
+            outline: none;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        #selectDate {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px 15px;
+            font-size: 18px;
+            border: 2px solid #28a745;
+            border-radius: 25px;
+            outline: none;
+            margin-top: 15px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        #searchBtn {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px 15px;
+            font-size: 18px;
+            border: 2px solid #ffc107;
+            border-radius: 25px;
+            outline: none;
+            margin-top: 15px;
+            background-color: #ffc107;
+            color: black;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        #searchBtn:hover {
+            background-color: #e0a800;
+        }
+
+        #searchResults {
+            width: 80%;
+            max-width: 400px;
+            background: white;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 125px;
+            z-index: 1000;
+            display: none;
+        }
+
+        .search-item {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+
+        .search-item:last-child {
+            border-bottom: none;
+        }
+
+        .search-item:hover {
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1><</h1>
+    </nav>
+    <div class="header">
+        <input type="text" id="stationName" placeholder="輸入車站"/>
+        <input type="date" id="selectDate" />
+        <button id="searchBtn">查詢</button>
+        <div id="searchResults"></div>
+    </div>    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const input = document.getElementById("stationName");
+            const resultBox = document.getElementById("searchResults");
+            const searchBtn = document.getElementById("searchBtn");
+            const dateInput = document.getElementById("selectDate");
+            let stationsData = [];
+            let selectedUUID = null;
+
+            // 預設日期為今天
+            const today = new Date();
+            const yyyy = today.getFullYear();
+            const mm = String(today.getMonth() + 1).padStart(2, '0');
+            const dd = String(today.getDate()).padStart(2, '0');
+            dateInput.value = `${yyyy}-${mm}-${dd}`;
+
+            // 載入車站資料
+            fetch("json/stations.json")
+                .then(response => response.json())
+                .then(data => {
+                    stationsData = data.stations;
+                })
+                .catch(error => console.error("無法加載車站數據：", error));
+
+            // 輸入框事件監聽
+            input.addEventListener("input", () => {
+                const keyword = input.value.trim();
+                resultBox.innerHTML = "";
+                if (keyword === "") {
+                    resultBox.style.display = "none";
+                    return;
+                }
+
+                const filteredStations = stationsData.filter(station =>
+                    station.stationName.includes(keyword) ||
+                    (station.stationNameTHSR && station.stationNameTHSR.includes(keyword))
+                );
+
+                if (filteredStations.length === 0) {
+                    resultBox.style.display = "none";
+                    return;
+                }
+
+                filteredStations.forEach(station => {
+                    const nameToShow = station.stationName.includes(keyword) ? station.stationName : station.stationNameTHSR;
+                    const div = document.createElement("div");
+                    div.textContent = nameToShow;
+                    div.className = "search-item";
+                    div.addEventListener("click", () => {
+                        selectedUUID = station.uuid;
+                        input.value = nameToShow;
+                        resultBox.style.display = "none";
+                    });
+                    resultBox.appendChild(div);
+                });
+
+                resultBox.style.display = "block";
+            });
+
+            // 點其他地方時隱藏下拉選單
+            document.addEventListener("click", (event) => {
+                if (!input.contains(event.target) && !resultBox.contains(event.target)) {
+                    resultBox.style.display = "none";
+                }
+            });
+
+            // 查詢按鈕點擊
+            searchBtn.addEventListener("click", () => {
+                const date = document.getElementById("selectDate").value;
+
+                if (!selectedUUID) {
+                    alert("請先選擇車站");
+                    return;
+                }
+
+                if (!date) {
+                    alert("請選擇日期");
+                    return;
+                }
+
+                window.location.href = `stationLineListGPT.html?uuid=${selectedUUID}&date=${date}`;
+            });
+        });
+    </script>
+</body>
+</html>
