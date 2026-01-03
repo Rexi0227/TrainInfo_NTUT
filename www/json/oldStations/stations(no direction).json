@@ -1,0 +1,3043 @@
+{
+  "stations": [
+    {
+      "stationName": "基隆",
+      "lines": [
+        {
+          "stationNameInLine": "基隆",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "三坑",
+      "lines": [
+        {
+          "stationNameInLine": "三坑",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "八堵",
+      "lines": [
+        {
+          "stationNameInLine": "八堵",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        },{
+          "stationNameInLine": "八堵",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "七堵",
+      "lines": [
+        {
+          "stationNameInLine": "七堵",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "百福",
+      "lines": [
+        {
+          "stationNameInLine": "百福",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "五堵",
+      "lines": [
+        {
+          "stationNameInLine": "五堵",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "汐止",
+      "lines": [
+        {
+          "stationNameInLine": "汐止",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "汐科",
+      "lines": [
+        {
+          "stationNameInLine": "汐科",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "南港",
+      "lines": [
+        {
+          "stationNameInLine": "南港",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "松山",
+      "lines": [
+        {
+          "stationNameInLine": "松山",
+          "lineName": "縱貫線",
+          "linecode": "0",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "臺北",
+      "lines": [
+        {
+          "stationNameInLine": "臺北",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "臺北-環島",
+      "lines": [
+        {
+          "stationNameInLine": "臺北-環島",
+          "lineName": "內灣/六家線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "萬華",
+      "lines": [
+        {
+          "stationNameInLine": "萬華",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "板橋",
+      "lines": [
+        {
+          "stationNameInLine": "板橋",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "浮洲",
+      "lines": [
+        {
+          "stationNameInLine": "浮洲",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "樹林",
+      "lines": [
+        {
+          "stationNameInLine": "樹林",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "南樹林",
+      "lines": [
+        {
+          "stationNameInLine": "南樹林",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "山佳",
+      "lines": [
+        {
+          "stationNameInLine": "山佳",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "鶯歌",
+      "lines": [
+        {
+          "stationNameInLine": "鶯歌",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "鳳鳴",
+      "lines": [
+        {
+          "stationNameInLine": "鳳鳴",
+          "lineName": "內灣/六家線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "桃園",
+      "lines": [
+        {
+          "stationNameInLine": "桃園",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "內壢",
+      "lines": [
+        {
+          "stationNameInLine": "內壢",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "中壢",
+      "lines": [
+        {
+          "stationNameInLine": "中壢",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "埔心",
+      "lines": [
+        {
+          "stationNameInLine": "埔心",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "楊梅",
+      "lines": [
+        {
+          "stationNameInLine": "楊梅",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "富岡",
+      "lines": [
+        {
+          "stationNameInLine": "富岡",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新富",
+      "lines": [
+        {
+          "stationNameInLine": "新富",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "北湖",
+      "lines": [
+        {
+          "stationNameInLine": "北湖",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "湖口",
+      "lines": [
+        {
+          "stationNameInLine": "湖口",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新豐",
+      "lines": [
+        {
+          "stationNameInLine": "新豐",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "竹北",
+      "lines": [
+        {
+          "stationNameInLine": "竹北",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "北新竹",
+      "lines": [
+        {
+          "stationNameInLine": "北新竹",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "北新竹",
+          "lineName": "內灣/六家線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "千甲",
+      "lines": [
+        {
+          "stationNameInLine": "千甲",
+          "lineName": "內灣/六家線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新莊",
+      "lines": [
+        {
+          "stationNameInLine": "新莊",
+          "lineName": "內灣/六家線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "竹中",
+      "lines": [
+        {
+          "stationNameInLine": "竹中",
+          "lineName": "內灣/六家線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "六家",
+      "lines": [
+        {
+          "stationNameInLine": "六家",
+          "lineName": "六家線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "上員",
+      "lines": [
+        {
+          "stationNameInLine": "上員",
+          "lineName": "內灣線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "榮華",
+      "lines": [
+        {
+          "stationNameInLine": "榮華",
+          "lineName": "內灣線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "竹東",
+      "lines": [
+        {
+          "stationNameInLine": "竹東",
+          "lineName": "內灣線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "橫山",
+      "lines": [
+        {
+          "stationNameInLine": "橫山",
+          "lineName": "內灣線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "九讚頭",
+      "lines": [
+        {
+          "stationNameInLine": "九讚頭",
+          "lineName": "內灣線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "合興",
+      "lines": [
+        {
+          "stationNameInLine": "合興",
+          "lineName": "內灣線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "富貴",
+      "lines": [
+        {
+          "stationNameInLine": "富貴",
+          "lineName": "內灣線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "內灣",
+      "lines": [
+        {
+          "stationNameInLine": "內灣",
+          "lineName": "內灣線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新竹",
+      "lines": [
+        {
+          "stationNameInLine": "新竹",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "新竹",
+          "lineName": "內灣/六家線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "三姓橋",
+      "lines": [
+        {
+          "stationNameInLine": "三姓橋",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "香山",
+      "lines": [
+        {
+          "stationNameInLine": "香山",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "崎頂",
+      "lines": [
+        {
+          "stationNameInLine": "崎頂",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "竹南",
+      "lines": [
+        {
+          "stationNameInLine": "竹南",
+          "lineName": "縱貫線",
+          "linecode": "1",
+          "lineColor": "#85dd00",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "竹南",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "竹南",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "談文",
+      "lines": [
+        {
+          "stationNameInLine": "談文",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大山",
+      "lines": [
+        {
+          "stationNameInLine": "大山",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "後龍",
+      "lines": [
+        {
+          "stationNameInLine": "後龍",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "龍港",
+      "lines": [
+        {
+          "stationNameInLine": "龍港",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "白沙屯",
+      "lines": [
+        {
+          "stationNameInLine": "白沙屯",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新埔",
+      "lines": [
+        {
+          "stationNameInLine": "新埔",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "通霄",
+      "lines": [
+        {
+          "stationNameInLine": "通霄",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "苑裡",
+      "lines": [
+        {
+          "stationNameInLine": "苑裡",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "日南",
+      "lines": [
+        {
+          "stationNameInLine": "日南",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大甲",
+      "lines": [
+        {
+          "stationNameInLine": "大甲",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "臺中港",
+      "lines": [
+        {
+          "stationNameInLine": "臺中港",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "清水",
+      "lines": [
+        {
+          "stationNameInLine": "清水",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "沙鹿",
+      "lines": [
+        {
+          "stationNameInLine": "沙鹿",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "龍井",
+      "lines": [
+        {
+          "stationNameInLine": "龍井",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大肚",
+      "lines": [
+        {
+          "stationNameInLine": "大肚",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "追分",
+      "lines": [
+        {
+          "stationNameInLine": "追分",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "追分",
+          "lineName": "成追線",
+          "linecode": "",
+          "lineColor": "yellow",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "造橋",
+      "lines": [
+        {
+          "stationNameInLine": "造橋",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "豐富",
+      "lines": [
+        {
+          "stationNameInLine": "豐富",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "苗栗",
+      "lines": [
+        {
+          "stationNameInLine": "苗栗",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "南勢",
+      "lines": [
+        {
+          "stationNameInLine": "南勢",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "銅鑼",
+      "lines": [
+        {
+          "stationNameInLine": "銅鑼",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "三義",
+      "lines": [
+        {
+          "stationNameInLine": "三義",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "泰安",
+      "lines": [
+        {
+          "stationNameInLine": "泰安",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "后里",
+      "lines": [
+        {
+          "stationNameInLine": "后里",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "豐原",
+      "lines": [
+        {
+          "stationNameInLine": "豐原",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "栗林",
+      "lines": [
+        {
+          "stationNameInLine": "栗林",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "潭子",
+      "lines": [
+        {
+          "stationNameInLine": "潭子",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "頭家厝",
+      "lines": [
+        {
+          "stationNameInLine": "頭家厝",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "松竹",
+      "lines": [
+        {
+          "stationNameInLine": "松竹",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "太原",
+      "lines": [
+        {
+          "stationNameInLine": "太原",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "精武",
+      "lines": [
+        {
+          "stationNameInLine": "精武",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "臺中",
+      "lines": [
+        {
+          "stationNameInLine": "臺中",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "五權",
+      "lines": [
+        {
+          "stationNameInLine": "五權",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大慶",
+      "lines": [
+        {
+          "stationNameInLine": "大慶",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "烏日",
+      "lines": [
+        {
+          "stationNameInLine": "烏日",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新烏日",
+      "lines": [
+        {
+          "stationNameInLine": "新烏日",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "成功",
+      "lines": [
+        {
+          "stationNameInLine": "成功",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "成功",
+          "lineName": "成追線",
+          "linecode": "",
+          "lineColor": "yellow",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "彰化",
+      "lines": [
+        {
+          "stationNameInLine": "彰化",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "彰化",
+          "lineName": "海線",
+          "linecode": "2",
+          "lineColor": "#65fcf2",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "花壇",
+      "lines": [
+        {
+          "stationNameInLine": "花壇",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大村",
+      "lines": [
+        {
+          "stationNameInLine": "大村",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "員林",
+      "lines": [
+        {
+          "stationNameInLine": "員林",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "永靖",
+      "lines": [
+        {
+          "stationNameInLine": "永靖",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "社頭",
+      "lines": [
+        {
+          "stationNameInLine": "社頭",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "田中",
+      "lines": [
+        {
+          "stationNameInLine": "田中",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "二水",
+      "lines": [
+        {
+          "stationNameInLine": "二水",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "二水",
+          "lineName": "集集線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "源泉",
+      "lines": [
+        {
+          "stationNameInLine": "源泉",
+          "lineName": "集集線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "濁水",
+      "lines": [
+        {
+          "stationNameInLine": "濁水",
+          "lineName": "集集線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "龍泉",
+      "lines": [
+        {
+          "stationNameInLine": "龍泉",
+          "lineName": "集集線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "集集",
+      "lines": [
+        {
+          "stationNameInLine": "集集",
+          "lineName": "集集線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "水里",
+      "lines": [
+        {
+          "stationNameInLine": "水里",
+          "lineName": "集集線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "車埕",
+      "lines": [
+        {
+          "stationNameInLine": "車埕",
+          "lineName": "集集線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "林內",
+      "lines": [
+        {
+          "stationNameInLine": "林內",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "石榴",
+      "lines": [
+        {
+          "stationNameInLine": "石榴",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "斗六",
+      "lines": [
+        {
+          "stationNameInLine": "斗六",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "斗南",
+      "lines": [
+        {
+          "stationNameInLine": "斗南",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "石龜",
+      "lines": [
+        {
+          "stationNameInLine": "石龜",
+          "lineName": "縱貫/山線",
+          "linecode": "3",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大林",
+      "lines": [
+        {
+          "stationNameInLine": "大林",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "民雄",
+      "lines": [
+        {
+          "stationNameInLine": "民雄",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "嘉北",
+      "lines": [
+        {
+          "stationNameInLine": "嘉北",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "嘉義",
+      "lines": [
+        {
+          "stationNameInLine": "嘉義",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "水上",
+      "lines": [
+        {
+          "stationNameInLine": "水上",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "南靖",
+      "lines": [
+        {
+          "stationNameInLine": "南靖",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "後壁",
+      "lines": [
+        {
+          "stationNameInLine": "後壁",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新營",
+      "lines": [
+        {
+          "stationNameInLine": "新營",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "柳營",
+      "lines": [
+        {
+          "stationNameInLine": "柳營",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "林鳳營",
+      "lines": [
+        {
+          "stationNameInLine": "林鳳營",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "隆田",
+      "lines": [
+        {
+          "stationNameInLine": "隆田",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "拔林",
+      "lines": [
+        {
+          "stationNameInLine": "拔林",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "善化",
+      "lines": [
+        {
+          "stationNameInLine": "善化",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "南科",
+      "lines": [
+        {
+          "stationNameInLine": "南科",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新市",
+      "lines": [
+        {
+          "stationNameInLine": "新市",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "永康",
+      "lines": [
+        {
+          "stationNameInLine": "永康",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大橋",
+      "lines": [
+        {
+          "stationNameInLine": "大橋",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "臺南",
+      "lines": [
+        {
+          "stationNameInLine": "臺南",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "保安",
+      "lines": [
+        {
+          "stationNameInLine": "保安",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "仁德",
+      "lines": [
+        {
+          "stationNameInLine": "仁德",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "中洲",
+      "lines": [
+        {
+          "stationNameInLine": "中洲",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "中洲",
+          "lineName": "沙崙線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "長榮大學",
+      "lines": [
+        {
+          "stationNameInLine": "長榮大學",
+          "lineName": "沙崙線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "沙崙",
+      "lines": [
+        {
+          "stationNameInLine": "沙崙",
+          "lineName": "沙崙線",
+          "linecode": "",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大湖",
+      "lines": [
+        {
+          "stationNameInLine": "大湖",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "路竹",
+      "lines": [
+        {
+          "stationNameInLine": "路竹",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "岡山",
+      "lines": [
+        {
+          "stationNameInLine": "岡山",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "橋頭",
+      "lines": [
+        {
+          "stationNameInLine": "橋頭",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "楠梓",
+      "lines": [
+        {
+          "stationNameInLine": "楠梓",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新左營",
+      "lines": [
+        {
+          "stationNameInLine": "新左營",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "左營",
+      "lines": [
+        {
+          "stationNameInLine": "左營",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "內惟",
+      "lines": [
+        {
+          "stationNameInLine": "內惟",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "美術館",
+      "lines": [
+        {
+          "stationNameInLine": "美術館",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "鼓山",
+      "lines": [
+        {
+          "stationNameInLine": "鼓山",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "三塊厝",
+      "lines": [
+        {
+          "stationNameInLine": "三塊厝",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "高雄",
+      "lines": [
+        {
+          "stationNameInLine": "高雄",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "民族",
+      "lines": [
+        {
+          "stationNameInLine": "民族",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "科工館",
+      "lines": [
+        {
+          "stationNameInLine": "科工館",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "正義",
+      "lines": [
+        {
+          "stationNameInLine": "正義",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "鳳山",
+      "lines": [
+        {
+          "stationNameInLine": "鳳山",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "後庄",
+      "lines": [
+        {
+          "stationNameInLine": "後庄",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "九曲堂",
+      "lines": [
+        {
+          "stationNameInLine": "九曲堂",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "六塊厝",
+      "lines": [
+        {
+          "stationNameInLine": "六塊厝",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "屏東",
+      "lines": [
+        {
+          "stationNameInLine": "屏東",
+          "lineName": "縱貫/山線",
+          "linecode": "4",
+          "lineColor": "#2390fc",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "屏東",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "歸來",
+      "lines": [
+        {
+          "stationNameInLine": "歸來",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "麟洛",
+      "lines": [
+        {
+          "stationNameInLine": "麟洛",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "西勢",
+      "lines": [
+        {
+          "stationNameInLine": "西勢",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "竹田",
+      "lines": [
+        {
+          "stationNameInLine": "竹田",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "潮州",
+      "lines": [
+        {
+          "stationNameInLine": "潮州",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "崁頂",
+      "lines": [
+        {
+          "stationNameInLine": "崁頂",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "南州",
+      "lines": [
+        {
+          "stationNameInLine": "南州",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "鎮安",
+      "lines": [
+        {
+          "stationNameInLine": "鎮安",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "林邊",
+      "lines": [
+        {
+          "stationNameInLine": "林邊",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "佳冬",
+      "lines": [
+        {
+          "stationNameInLine": "佳冬",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "東海",
+      "lines": [
+        {
+          "stationNameInLine": "東海",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "枋寮",
+      "lines": [
+        {
+          "stationNameInLine": "枋寮",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "加祿",
+      "lines": [
+        {
+          "stationNameInLine": "加祿",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "內獅",
+      "lines": [
+        {
+          "stationNameInLine": "內獅",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "枋山",
+      "lines": [
+        {
+          "stationNameInLine": "枋山",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "枋野",
+      "lines": [
+        {
+          "stationNameInLine": "枋野",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大武",
+      "lines": [
+        {
+          "stationNameInLine": "大武",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "瀧溪",
+      "lines": [
+        {
+          "stationNameInLine": "瀧溪",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "金崙",
+      "lines": [
+        {
+          "stationNameInLine": "金崙",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "太麻里",
+      "lines": [
+        {
+          "stationNameInLine": "太麻里",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "知本",
+      "lines": [
+        {
+          "stationNameInLine": "知本",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "康樂",
+      "lines": [
+        {
+          "stationNameInLine": "康樂",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "南方小站",
+      "lines": [
+        {
+          "stationNameInLine": "南方小站",
+          "lineName": "潮州基地線",
+          "linecode": "6",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "潮州基地",
+      "lines": [
+        {
+          "stationNameInLine": "潮州基地",
+          "lineName": "潮州基地線",
+          "linecode": "6",
+          "lineColor": "#8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "臺東",
+      "lines": [
+        {
+          "stationNameInLine": "臺東",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "臺東",
+          "lineName": "屏東/南迴線",
+          "linecode": "5",
+          "lineColor": "#8f14f5",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "山里",
+      "lines": [
+        {
+          "stationNameInLine": "山里",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "鹿野",
+      "lines": [
+        {
+          "stationNameInLine": "鹿野",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "瑞源",
+      "lines": [
+        {
+          "stationNameInLine": "瑞源",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "瑞和",
+      "lines": [
+        {
+          "stationNameInLine": "瑞和",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "關山",
+      "lines": [
+        {
+          "stationNameInLine": "關山",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "海端",
+      "lines": [
+        {
+          "stationNameInLine": "海端",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "池上",
+      "lines": [
+        {
+          "stationNameInLine": "池上",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "富里",
+      "lines": [
+        {
+          "stationNameInLine": "富里",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "東竹",
+      "lines": [
+        {
+          "stationNameInLine": "東竹",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "東里",
+      "lines": [
+        {
+          "stationNameInLine": "東里",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "玉里",
+      "lines": [
+        {
+          "stationNameInLine": "玉里",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "三民",
+      "lines": [
+        {
+          "stationNameInLine": "三民",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "瑞穗",
+      "lines": [
+        {
+          "stationNameInLine": "瑞穗",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "富源",
+      "lines": [
+        {
+          "stationNameInLine": "富源",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大富",
+      "lines": [
+        {
+          "stationNameInLine": "大富",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "光復",
+      "lines": [
+        {
+          "stationNameInLine": "光復",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "萬榮",
+      "lines": [
+        {
+          "stationNameInLine": "萬榮",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "鳳林",
+      "lines": [
+        {
+          "stationNameInLine": "鳳林",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "南平",
+      "lines": [
+        {
+          "stationNameInLine": "南平",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "林榮新光",
+      "lines": [
+        {
+          "stationNameInLine": "林榮新光",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "豐田",
+      "lines": [
+        {
+          "stationNameInLine": "豐田",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "壽豐",
+      "lines": [
+        {
+          "stationNameInLine": "壽豐",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "平和",
+      "lines": [
+        {
+          "stationNameInLine": "平和",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "志學",
+      "lines": [
+        {
+          "stationNameInLine": "志學",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "吉安",
+      "lines": [
+        {
+          "stationNameInLine": "吉安",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "花蓮",
+      "lines": [
+        {
+          "stationNameInLine": "花蓮",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "花蓮",
+          "lineName": "臺東線",
+          "linecode": "6",
+          "lineColor": "#054d01",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "北埔",
+      "lines": [
+        {
+          "stationNameInLine": "北埔",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "景美",
+      "lines": [
+        {
+          "stationNameInLine": "景美",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新城",
+      "lines": [
+        {
+          "stationNameInLine": "新城",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "崇德",
+      "lines": [
+        {
+          "stationNameInLine": "崇德",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "和仁",
+      "lines": [
+        {
+          "stationNameInLine": "和仁",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "和平",
+      "lines": [
+        {
+          "stationNameInLine": "和平",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "漢本",
+      "lines": [
+        {
+          "stationNameInLine": "漢本",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "武塔",
+      "lines": [
+        {
+          "stationNameInLine": "武塔",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "南澳",
+      "lines": [
+        {
+          "stationNameInLine": "南澳",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "東澳",
+      "lines": [
+        {
+          "stationNameInLine": "東澳",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "永樂",
+      "lines": [
+        {
+          "stationNameInLine": "永樂",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "蘇澳",
+      "lines": [
+        {
+          "stationNameInLine": "蘇澳",
+          "lineName": "宜蘭線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "蘇澳新",
+      "lines": [
+        {
+          "stationNameInLine": "蘇澳新",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "蘇澳新",
+          "lineName": "宜蘭線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "新馬",
+      "lines": [
+        {
+          "stationNameInLine": "新馬",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "冬山",
+      "lines": [
+        {
+          "stationNameInLine": "冬山",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "羅東",
+      "lines": [
+        {
+          "stationNameInLine": "羅東",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "中里",
+      "lines": [
+        {
+          "stationNameInLine": "中里",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "二結",
+      "lines": [
+        {
+          "stationNameInLine": "二結",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "宜蘭",
+      "lines": [
+        {
+          "stationNameInLine": "宜蘭",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "四城",
+      "lines": [
+        {
+          "stationNameInLine": "四城",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "礁溪",
+      "lines": [
+        {
+          "stationNameInLine": "礁溪",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "頂埔",
+      "lines": [
+        {
+          "stationNameInLine": "頂埔",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "頭城",
+      "lines": [
+        {
+          "stationNameInLine": "頭城",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "外澳",
+      "lines": [
+        {
+          "stationNameInLine": "外澳",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "龜山",
+      "lines": [
+        {
+          "stationNameInLine": "龜山",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大溪",
+      "lines": [
+        {
+          "stationNameInLine": "大溪",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大里",
+      "lines": [
+        {
+          "stationNameInLine": "大里",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "石城",
+      "lines": [
+        {
+          "stationNameInLine": "石城",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "福隆",
+      "lines": [
+        {
+          "stationNameInLine": "福隆",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "貢寮",
+      "lines": [
+        {
+          "stationNameInLine": "貢寮",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "雙溪",
+      "lines": [
+        {
+          "stationNameInLine": "雙溪",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "牡丹",
+      "lines": [
+        {
+          "stationNameInLine": "牡丹",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "三貂嶺",
+      "lines": [
+        {
+          "stationNameInLine": "三貂嶺",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "三貂嶺",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "大華",
+      "lines": [
+        {
+          "stationNameInLine": "大華",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "十分",
+      "lines": [
+        {
+          "stationNameInLine": "十分",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "望古",
+      "lines": [
+        {
+          "stationNameInLine": "望古",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "嶺腳",
+      "lines": [
+        {
+          "stationNameInLine": "嶺腳",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "平溪",
+      "lines": [
+        {
+          "stationNameInLine": "平溪",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "菁桐",
+      "lines": [
+        {
+          "stationNameInLine": "菁桐",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "猴硐",
+      "lines": [
+        {
+          "stationNameInLine": "猴硐",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "瑞芳",
+      "lines": [
+        {
+          "stationNameInLine": "瑞芳",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        },
+        {
+          "stationNameInLine": "瑞芳",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "海科館",
+      "lines": [
+        {
+          "stationNameInLine": "海科館",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "八斗子",
+      "lines": [
+        {
+          "stationNameInLine": "八斗子",
+          "lineName": "平溪/深澳線",
+          "linecode": "",
+          "lineColor": "8a8a8a",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "四腳亭",
+      "lines": [
+        {
+          "stationNameInLine": "四腳亭",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    },
+    {
+      "stationName": "暖暖",
+      "lines": [
+        {
+          "stationNameInLine": "暖暖",
+          "lineName": "宜蘭/北迴線",
+          "linecode": "7",
+          "lineColor": "red",
+          "lineDescription": ""
+        }
+      ]
+    }
+  ]
+}

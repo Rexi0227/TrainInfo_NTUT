@@ -1,0 +1,3122 @@
+{
+  "stations": [
+    {
+      "stationNameTRTC": "頂埔",
+      "lines": [
+        {
+          "stationNameInLine": "頂埔",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL01",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "頂埔",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL01",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "62b8dd06-925e-4913-a856-65733e70588b"
+    },
+    {
+      "stationNameTRTC": "永寧",
+      "lines": [
+        {
+          "stationNameInLine": "永寧",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL02",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "永寧",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL02",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "3036d049-89e5-4cc3-b615-87eecbebd0ff"
+    },
+    {
+      "stationNameTRTC": "土城",
+      "lines": [
+        {
+          "stationNameInLine": "土城",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL03",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "土城",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL03",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "b705cab2-9382-4a34-91f9-947dad598d57"
+    },
+    {
+      "stationNameTRTC": "海山",
+      "lines": [
+        {
+          "stationNameInLine": "海山",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL04",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "海山",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL04",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "2dd59c45-6b5e-480e-a5f7-ccaff1fda74c"
+    },
+    {
+      "stationNameTRTC": "亞東醫院",
+      "lines": [
+        {
+          "stationNameInLine": "亞東醫院",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL05",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "亞東醫院",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL05",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "3b012266-a167-489e-9dd3-0fedab05410f"
+    },
+    {
+      "stationNameTRTC": "府中",
+      "lines": [
+        {
+          "stationNameInLine": "府中",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL06",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "府中",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL06",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "07ca16ce-d862-43cf-aedf-1f1616ab527a"
+    },
+    {
+      "stationNameTRTC": "板橋",
+      "lines": [
+        {
+          "stationNameInLine": "板橋",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL07",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "板橋",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL07",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "dc5a3658-67ba-4d85-b635-35067d6e0507"
+    },
+    {
+      "stationNameTRTC": "新埔",
+      "lines": [
+        {
+          "stationNameInLine": "新埔",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL08",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "新埔",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL08",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "f2b2159e-6449-4ae1-a444-27f71d88789b"
+    },
+    {
+      "stationNameTRTC": "江子翠",
+      "lines": [
+        {
+          "stationNameInLine": "江子翠",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL09",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "江子翠",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL09",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "5c6d6ce2-7c91-4757-8ca8-16bd7a6fe3dd"
+    },
+    {
+      "stationNameTRTC": "龍山寺",
+      "lines": [
+        {
+          "stationNameInLine": "龍山寺",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL10",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "龍山寺",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL10",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "7a2f7683-d53c-490d-ba74-37ef8295a23a"
+    },
+    {
+      "stationNameTRTC": "西門",
+      "lines": [
+        {
+          "stationNameInLine": "西門",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL11",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "西門",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL11",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "西門",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G12",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "西門",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G12",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "33199164-e531-4252-9888-13f32188113c"
+    },
+    {
+      "stationNameTRTC": "台北車站",
+      "lines": [
+        {
+          "stationNameInLine": "台北車站",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL12",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "台北車站",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL12",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "台北車站",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R10",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "台北車站",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R10",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "a6d95fb5-4906-4718-adc0-c6a129ad967c"
+    },
+    {
+      "stationNameTRTC": "善導寺",
+      "lines": [
+        {
+          "stationNameInLine": "善導寺",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL13",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "善導寺",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL13",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "e759a888-595a-43ca-b2d2-3b589c77ff40"
+    },
+    {
+      "stationNameTRTC": "忠孝新生",
+      "lines": [
+        {
+          "stationNameInLine": "忠孝新生",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL14",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "忠孝新生",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL14",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "忠孝新生",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O07",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "忠孝新生",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O07",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "c7db64dd-9ccd-44d7-8e55-466cb2dfd6cd"
+    },
+    {
+      "stationNameTRTC": "忠孝復興",
+      "lines": [
+        {
+          "stationNameInLine": "忠孝復興",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL15",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "忠孝復興",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL15",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "忠孝復興",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR10",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "忠孝復興",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR10",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "f5dbdd9b-5223-496f-95c1-40353c6439b8"
+    },
+    {
+      "stationNameTRTC": "忠孝敦化",
+      "lines": [
+        {
+          "stationNameInLine": "忠孝敦化",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL16",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "忠孝敦化",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL16",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "1762c0d0-815d-4c79-a176-748cd397d032"
+    },
+    {
+      "stationNameTRTC": "國父紀念館",
+      "lines": [
+        {
+          "stationNameInLine": "國父紀念館",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL17",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "國父紀念館",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL17",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "b04d5cf5-f210-47b2-9aab-c9619f3e8fe8"
+    },
+    {
+      "stationNameTRTC": "市政府",
+      "lines": [
+        {
+          "stationNameInLine": "市政府",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL18",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "市政府",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL18",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "4d55160a-7cb6-4570-b255-74a668e0a403"
+    },
+    {
+      "stationNameTRTC": "永春",
+      "lines": [
+        {
+          "stationNameInLine": "永春",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL19",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "永春",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL19",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "c3ba7677-0105-42e4-a498-6c8c4f8ac497"
+    },
+    {
+      "stationNameTRTC": "後山埤",
+      "lines": [
+        {
+          "stationNameInLine": "後山埤",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL20",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "後山埤",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL20",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "e0d3e0e8-8cc0-4331-88ba-83ed1765fcbb"
+    },
+    {
+      "stationNameTRTC": "昆陽",
+      "lines": [
+        {
+          "stationNameInLine": "昆陽",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL21",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "昆陽",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL21",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "1044c8aa-b4b4-4814-8424-e71dc8073468"
+    },
+    {
+      "stationNameTRTC": "南港",
+      "lines": [
+        {
+          "stationNameInLine": "南港",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL22",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南港",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL22",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "bb3d8961-d247-4e80-809a-fc64798ddf99"
+    },
+    {
+      "stationNameTRTC": "南港展覽館",
+      "lines": [
+        {
+          "stationNameInLine": "南港展覽館",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BL23",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南港展覽館",
+          "lineName": "板南線",
+          "linecode": "BL",
+          "lineColor": "blue",
+          "lineDescription": "往頂埔",
+          "direction": 1,
+          "stationID": "BL23",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南港展覽館",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR24",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南港展覽館",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR24",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "619412a7-6294-4397-a0ed-dba0e08b4746"
+    },
+    {
+      "stationNameTRTC": "動物園",
+      "lines": [
+        {
+          "stationNameInLine": "動物園",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR01",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "動物園",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR01",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ecfd477f-001d-4bc9-89b1-b0554da1fe73"
+    },
+    {
+      "stationNameTRTC": "木柵",
+      "lines": [
+        {
+          "stationNameInLine": "木柵",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR02",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "木柵",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR02",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "46ac376d-8e66-4bba-8323-c31a7062c726"
+    },
+    {
+      "stationNameTRTC": "萬芳社區",
+      "lines": [
+        {
+          "stationNameInLine": "萬芳社區",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR03",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "萬芳社區",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR03",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "49072ae1-eaa7-4ac6-9e96-513d6860a0e7"
+    },
+    {
+      "stationNameTRTC": "萬芳醫院",
+      "lines": [
+        {
+          "stationNameInLine": "萬芳醫院",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR04",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "萬芳醫院",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR04",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "93ff2d1e-a91e-4648-861d-ac888e618753"
+    },
+    {
+      "stationNameTRTC": "辛亥",
+      "lines": [
+        {
+          "stationNameInLine": "辛亥",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR05",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "辛亥",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR05",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "20283c7c-095c-49b5-bffa-109671136675"
+    },
+    {
+      "stationNameTRTC": "麟光",
+      "lines": [
+        {
+          "stationNameInLine": "麟光",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR06",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "麟光",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR06",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "75fbc063-ad79-4746-86a0-605faa09963b"
+    },
+    {
+      "stationNameTRTC": "六張犁",
+      "lines": [
+        {
+          "stationNameInLine": "六張犁",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR07",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "六張犁",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR07",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "b0f97eab-3f03-4b82-b9c7-a8aad9d5898b"
+    },
+    {
+      "stationNameTRTC": "科技大樓",
+      "lines": [
+        {
+          "stationNameInLine": "科技大樓",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR08",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "科技大樓",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR08",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "81db72cf-7356-4455-8663-7250c8a61b44"
+    },
+    {
+      "stationNameTRTC": "大安",
+      "lines": [
+        {
+          "stationNameInLine": "大安",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR09",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "大安",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR09",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "大安",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R05",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "大安",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R05",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "da992e78-589d-471b-8d14-730ad8a1a904"
+    },
+    {
+      "stationNameTRTC": "南京復興",
+      "lines": [
+        {
+          "stationNameInLine": "南京復興",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR11",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南京復興",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR11",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南京復興",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G16",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南京復興",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G16",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "d1419ea2-9723-429f-83af-9155b06e0507"
+    },
+    {
+      "stationNameTRTC": "中山國中",
+      "lines": [
+        {
+          "stationNameInLine": "中山國中",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR12",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "中山國中",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR12",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "611d7cee-6dbd-43e0-9373-d6347911d70f"
+    },
+    {
+      "stationNameTRTC": "松山機場",
+      "lines": [
+        {
+          "stationNameInLine": "松山機場",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR13",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "松山機場",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR13",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "c4faf16c-3c5b-402d-b8f8-cfb6cf90798c"
+    },
+    {
+      "stationNameTRTC": "大直",
+      "lines": [
+        {
+          "stationNameInLine": "大直",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR14",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "大直",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR14",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "4164fb51-f20a-4ff2-bd82-f0608d98a443"
+    },
+    {
+      "stationNameTRTC": "劍南路",
+      "lines": [
+        {
+          "stationNameInLine": "劍南路",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR15",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "劍南路",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR15",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "aca2df43-a39a-4e1f-9a74-b648b31f8d40"
+    },
+    {
+      "stationNameTRTC": "西湖",
+      "lines": [
+        {
+          "stationNameInLine": "西湖",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR16",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "西湖",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR16",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "b91b745d-285e-4757-ab11-36c0aeaab534"
+    },
+    {
+      "stationNameTRTC": "港墘",
+      "lines": [
+        {
+          "stationNameInLine": "港墘",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR17",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "港墘",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR17",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "d0941a55-8a3e-4c0d-a985-ba52fcd4e4b0"
+    },
+    {
+      "stationNameTRTC": "文德",
+      "lines": [
+        {
+          "stationNameInLine": "文德",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR18",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "文德",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR18",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "42361b49-f9cd-4bd2-90b9-f8f18111d2a8"
+    },
+    {
+      "stationNameTRTC": "內湖",
+      "lines": [
+        {
+          "stationNameInLine": "內湖",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR19",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "內湖",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR19",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ac2b99e3-6671-4f35-ae45-e7a7b59d1448"
+    },
+    {
+      "stationNameTRTC": "大湖公園",
+      "lines": [
+        {
+          "stationNameInLine": "大湖公園",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR20",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "大湖公園",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR20",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "afeb2ade-7de7-4291-9d9f-e121a25445bd"
+    },
+    {
+      "stationNameTRTC": "葫洲",
+      "lines": [
+        {
+          "stationNameInLine": "葫洲",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR21",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "葫洲",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR21",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "43241302-e2a2-46d7-9348-f596c670fec2"
+    },
+    {
+      "stationNameTRTC": "東湖",
+      "lines": [
+        {
+          "stationNameInLine": "東湖",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR22",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "東湖",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR22",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "3bdd85a8-bc4b-4c46-9e6b-dfc6cfe34b63"
+    },
+    {
+      "stationNameTRTC": "南港軟體園區",
+      "lines": [
+        {
+          "stationNameInLine": "南港軟體園區",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往南港展覽館",
+          "direction": 0,
+          "stationID": "BR23",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南港軟體園區",
+          "lineName": "文湖線",
+          "linecode": "BR",
+          "lineColor": "brown",
+          "lineDescription": "往動物園",
+          "direction": 1,
+          "stationID": "BR23",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "a909a784-fc3f-4445-ba38-4727a4a5baea"
+    },
+    {
+      "stationNameTRTC": "新店",
+      "lines": [
+        {
+          "stationNameInLine": "新店",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G01",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "新店",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G01",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "1bfb6dad-76a0-4c80-a431-8be5fcb2a478"
+    },
+    {
+      "stationNameTRTC": "新店區公所",
+      "lines": [
+        {
+          "stationNameInLine": "新店區公所",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G02",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "新店區公所",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G02",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "6b68dacd-1860-442d-9392-9f3097c8ede5"
+    },
+    {
+      "stationNameTRTC": "七張",
+      "lines": [
+        {
+          "stationNameInLine": "七張",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G03",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "七張",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G03",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "七張",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往小碧潭",
+          "direction": 0,
+          "stationID": "G03",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "七張",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往七張",
+          "direction": 1,
+          "stationID": "G03",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "74406984-e587-44a1-9f23-e5ce5ce57066"
+    },
+    {
+      "stationNameTRTC": "大坪林",
+      "lines": [
+        {
+          "stationNameInLine": "大坪林",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G04",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "大坪林",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G04",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "68fa92ee-fd3e-404b-b8f0-ef30d9b0d5d0"
+    },
+    {
+      "stationNameTRTC": "景美",
+      "lines": [
+        {
+          "stationNameInLine": "景美",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G05",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "景美",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G05",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "d3cdfe29-5440-411a-8afb-34390eadf100"
+    },
+    {
+      "stationNameTRTC": "萬隆",
+      "lines": [
+        {
+          "stationNameInLine": "萬隆",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G06",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "萬隆",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G06",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ce200a59-7911-453e-af66-7d78f6b7819f"
+    },
+    {
+      "stationNameTRTC": "公館",
+      "lines": [
+        {
+          "stationNameInLine": "公館",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G07",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "公館",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G07",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "14a19762-237e-40d7-b94f-57003d767e0d"
+    },
+    {
+      "stationNameTRTC": "台電大樓",
+      "lines": [
+        {
+          "stationNameInLine": "台電大樓",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G08",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "台電大樓",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G08",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "a06828c1-c989-4b3c-bc1c-c835a8751b90"
+    },
+    {
+      "stationNameTRTC": "古亭",
+      "lines": [
+        {
+          "stationNameInLine": "古亭",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G09",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "古亭",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G09",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "古亭",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O05",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "古亭",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O05",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ac6a7d19-3be0-404a-9f95-a88db337dbef"
+    },
+    {
+      "stationNameTRTC": "中正紀念堂",
+      "lines": [
+        {
+          "stationNameInLine": "中正紀念堂",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G10",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "中正紀念堂",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G10",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "中正紀念堂",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R08",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "中正紀念堂",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R08",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "5880017f-d051-42cf-b490-8c9766bf6375"
+    },
+    {
+      "stationNameTRTC": "小南門",
+      "lines": [
+        {
+          "stationNameInLine": "小南門",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G11",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "小南門",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G11",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "e511a05e-985f-433f-aca7-3bf19dd670f8"
+    },
+    {
+      "stationNameTRTC": "北門",
+      "lines": [
+        {
+          "stationNameInLine": "北門",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G13",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "北門",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G13",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "a982af50-94fd-4f19-98a0-f1774b2afaa9"
+    },
+    {
+      "stationNameTRTC": "中山",
+      "lines": [
+        {
+          "stationNameInLine": "中山",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G14",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "中山",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G14",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "中山",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R11",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "中山",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R11",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "a97c665d-8301-4407-832b-fa2b94d43b70"
+    },
+    {
+      "stationNameTRTC": "松江南京",
+      "lines": [
+        {
+          "stationNameInLine": "松江南京",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G15",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "松江南京",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G15",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "松江南京",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O08",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "松江南京",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O08",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "11385e4b-a11d-4f44-98da-8af4bdfd621a"
+    },
+    {
+      "stationNameTRTC": "台北小巨蛋",
+      "lines": [
+        {
+          "stationNameInLine": "台北小巨蛋",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G17",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "台北小巨蛋",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G17",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "290b739e-2ab6-481e-b1b1-1ade41ed0b9d"
+    },
+    {
+      "stationNameTRTC": "南京三民",
+      "lines": [
+        {
+          "stationNameInLine": "南京三民",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G18",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南京三民",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G18",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "55a757ad-fd55-4d19-a1c6-1a78af47e5be"
+    },
+    {
+      "stationNameTRTC": "松山",
+      "lines": [
+        {
+          "stationNameInLine": "松山",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往松山",
+          "direction": 0,
+          "stationID": "G19",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "松山",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往新店",
+          "direction": 1,
+          "stationID": "G19",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "59fb2ac2-80a3-488f-878c-e956671ac420"
+    },
+    {
+      "stationNameTRTC": "小碧潭",
+      "lines": [
+        {
+          "stationNameInLine": "小碧潭",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往小碧潭",
+          "direction": 0,
+          "stationID": "G03A",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "小碧潭",
+          "lineName": "松山新店線",
+          "linecode": "G",
+          "lineColor": "green",
+          "lineDescription": "往七張",
+          "direction": 1,
+          "stationID": "G03A",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "cdc6c607-7ebe-470d-be25-36b8091e142a"
+    },
+    {
+      "stationNameTRTC": "南勢角",
+      "lines": [
+        {
+          "stationNameInLine": "南勢角",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O01",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "南勢角",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O01",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "530c73e6-9fac-40ba-802c-2f55a9673851"
+    },
+    {
+      "stationNameTRTC": "景安",
+      "lines": [
+        {
+          "stationNameInLine": "景安",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O02",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "景安",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O02",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ed71cbbc-3766-46f0-8cf3-f88dba187217"
+    },
+    {
+      "stationNameTRTC": "永安市場",
+      "lines": [
+        {
+          "stationNameInLine": "永安市場",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O03",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "永安市場",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O03",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "c678a85e-d7f4-425d-b74b-6b538fc73b0e"
+    },
+    {
+      "stationNameTRTC": "頂溪",
+      "lines": [
+        {
+          "stationNameInLine": "頂溪",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O04",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "頂溪",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O04",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "630f995f-6753-4502-9016-4a2ce5575eae"
+    },
+    {
+      "stationNameTRTC": "東門",
+      "lines": [
+        {
+          "stationNameInLine": "東門",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O06",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "東門",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O06",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "東門",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R07",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "東門",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R07",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "30bb92ab-63cf-44c9-9881-b9d682b3c9c5"
+    },
+    {
+      "stationNameTRTC": "行天宮",
+      "lines": [
+        {
+          "stationNameInLine": "行天宮",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O09",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "行天宮",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O09",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "69a45021-1df0-47bf-92b1-fb64a4fe003f"
+    },
+    {
+      "stationNameTRTC": "中山國小",
+      "lines": [
+        {
+          "stationNameInLine": "中山國小",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O10",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "中山國小",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O10",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "9d39972d-7fcf-40b2-960f-17162b2c9007"
+    },
+    {
+      "stationNameTRTC": "民權西路",
+      "lines": [
+        {
+          "stationNameInLine": "民權西路",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍、蘆洲",
+          "direction": 0,
+          "stationID": "O11",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "民權西路",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O11",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "民權西路",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R13",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "民權西路",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R13",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "7babaf4c-bf9e-4273-af6b-d4a959f0c910"
+    },
+    {
+      "stationNameTRTC": "大橋頭",
+      "lines": [
+        {
+          "stationNameInLine": "大橋頭",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O12",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "大橋頭",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O12",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "大橋頭",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往蘆洲",
+          "direction": 0,
+          "stationID": "O12",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "9820ccf0-5cb6-482d-a044-a8aff758804d"
+    },
+    {
+      "stationNameTRTC": "台北橋",
+      "lines": [
+        {
+          "stationNameInLine": "台北橋",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O13",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "台北橋",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O13",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "6629595d-be83-408d-9b23-ba3fb018e892"
+    },
+    {
+      "stationNameTRTC": "菜寮",
+      "lines": [
+        {
+          "stationNameInLine": "菜寮",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O14",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "菜寮",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O14",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "d59dac55-1377-472c-809f-77d11da6776b"
+    },
+    {
+      "stationNameTRTC": "三重",
+      "lines": [
+        {
+          "stationNameInLine": "三重",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O15",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "三重",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O15",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "624d5c4a-5798-4521-81d2-a8828cd668e0"
+    },
+    {
+      "stationNameTRTC": "先嗇宮",
+      "lines": [
+        {
+          "stationNameInLine": "先嗇宮",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O16",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "先嗇宮",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O16",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ec2ae8ee-9b9f-401f-9db0-131f42c3d31c"
+    },
+    {
+      "stationNameTRTC": "頭前庄",
+      "lines": [
+        {
+          "stationNameInLine": "頭前庄",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O17",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "頭前庄",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O17",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "9dd89dc3-fbed-4b80-a3c1-6de4c475995d"
+    },
+    {
+      "stationNameTRTC": "新莊",
+      "lines": [
+        {
+          "stationNameInLine": "新莊",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O18",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "新莊",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O18",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "83dcfc18-4120-45f1-87fa-b41662da9a8d"
+    },
+    {
+      "stationNameTRTC": "輔大",
+      "lines": [
+        {
+          "stationNameInLine": "輔大",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O19",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "輔大",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O19",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ec119a80-bab6-4107-b9f7-be60f486bee3"
+    },
+    {
+      "stationNameTRTC": "丹鳳",
+      "lines": [
+        {
+          "stationNameInLine": "丹鳳",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O20",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "丹鳳",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O20",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "16c64985-90a2-461c-b09d-bba9ab604f22"
+    },
+    {
+      "stationNameTRTC": "迴龍",
+      "lines": [
+        {
+          "stationNameInLine": "迴龍",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往迴龍",
+          "direction": 0,
+          "stationID": "O21",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "迴龍",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O21",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "666a0bb3-9b0d-4a94-8a06-3f0fbd8b0db9"
+    },
+    {
+      "stationNameTRTC": "三重國小",
+      "lines": [
+        {
+          "stationNameInLine": "三重國小",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往蘆洲",
+          "direction": 0,
+          "stationID": "O50",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "三重國小",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O50",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "76c7714f-489f-4219-a922-508639a853fe"
+    },
+    {
+      "stationNameTRTC": "三和國中",
+      "lines": [
+        {
+          "stationNameInLine": "三和國中",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往蘆洲",
+          "direction": 0,
+          "stationID": "O51",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "三和國中",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O51",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "bf961215-e0c5-48f1-884f-adcc2aaefe67"
+    },
+    {
+      "stationNameTRTC": "徐匯中學",
+      "lines": [
+        {
+          "stationNameInLine": "徐匯中學",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往蘆洲",
+          "direction": 0,
+          "stationID": "O52",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "徐匯中學",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O52",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ec621821-1b9b-40fa-ac21-27fa8e51f3da"
+    },
+    {
+      "stationNameTRTC": "三民高中",
+      "lines": [
+        {
+          "stationNameInLine": "三民高中",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往蘆洲",
+          "direction": 0,
+          "stationID": "O53",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "三民高中",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O53",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "81062cc5-e2c2-4c8d-bffb-c35c288a3be8"
+    },
+    {
+      "stationNameTRTC": "蘆洲",
+      "lines": [
+        {
+          "stationNameInLine": "蘆洲",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往蘆洲",
+          "direction": 0,
+          "stationID": "O54",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "蘆洲",
+          "lineName": "中和新蘆線",
+          "linecode": "O",
+          "lineColor": "orange",
+          "lineDescription": "往南勢角",
+          "direction": 1,
+          "stationID": "O54",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ca2cc99c-1532-4355-8fc5-f971c900eea4"
+    },
+    {
+      "stationNameTRTC": "象山",
+      "lines": [
+        {
+          "stationNameInLine": "象山",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R02",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "象山",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R02",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "65ebb90f-e3ef-43f1-b29d-b25be393a09f"
+    },
+    {
+      "stationNameTRTC": "台北101/世貿",
+      "lines": [
+        {
+          "stationNameInLine": "台北101/世貿",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R03",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "台北101/世貿",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R03",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "3922a737-2cec-4c79-b3e2-245321547b18"
+    },
+    {
+      "stationNameTRTC": "信義安和",
+      "lines": [
+        {
+          "stationNameInLine": "信義安和",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R04",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "信義安和",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R04",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "6de2445a-0de6-472c-ae80-77f6471f785e"
+    },
+    {
+      "stationNameTRTC": "大安森林公園",
+      "lines": [
+        {
+          "stationNameInLine": "大安森林公園",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R06",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "大安森林公園",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R06",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "fcb803eb-6746-42ab-a84d-331b9d27830a"
+    },
+    {
+      "stationNameTRTC": "台大醫院",
+      "lines": [
+        {
+          "stationNameInLine": "台大醫院",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R09",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "台大醫院",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R09",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "6411ff74-f847-42d8-8b8a-f30ed01842a1"
+    },
+    {
+      "stationNameTRTC": "雙連",
+      "lines": [
+        {
+          "stationNameInLine": "雙連",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R12",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "雙連",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R12",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "efda6459-39af-4fe8-9653-f2e3d511998e"
+    },
+    {
+      "stationNameTRTC": "圓山",
+      "lines": [
+        {
+          "stationNameInLine": "圓山",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R14",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "圓山",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R14",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "415b9378-8256-46c5-a7c1-550fc7f323e6"
+    },
+    {
+      "stationNameTRTC": "劍潭",
+      "lines": [
+        {
+          "stationNameInLine": "劍潭",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R15",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "劍潭",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R15",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "34939c65-30e9-434d-b456-ff0b42d030d5"
+    },
+    {
+      "stationNameTRTC": "士林",
+      "lines": [
+        {
+          "stationNameInLine": "士林",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R16",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "士林",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R16",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "6be303cc-9ab6-463b-9f29-64ddf2f27428"
+    },
+    {
+      "stationNameTRTC": "芝山",
+      "lines": [
+        {
+          "stationNameInLine": "芝山",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R17",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "芝山",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R17",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "f8498735-d3ae-49f8-9f5b-451b67f61ab0"
+    },
+    {
+      "stationNameTRTC": "明德",
+      "lines": [
+        {
+          "stationNameInLine": "明德",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R18",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "明德",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R18",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "163e1c22-f9ee-4c04-9df2-031697e50e37"
+    },
+    {
+      "stationNameTRTC": "石牌",
+      "lines": [
+        {
+          "stationNameInLine": "石牌",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R19",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "石牌",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R19",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "6da1bef0-124b-4e51-bcc8-244860169475"
+    },
+    {
+      "stationNameTRTC": "唭哩岸",
+      "lines": [
+        {
+          "stationNameInLine": "唭哩岸",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R20",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "唭哩岸",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R20",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "a4f7dc65-6d87-4194-b15d-9486624ee9ab"
+    },
+    {
+      "stationNameTRTC": "奇岩",
+      "lines": [
+        {
+          "stationNameInLine": "奇岩",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R21",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "奇岩",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R21",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ff8988ce-ce50-4c11-9d97-c3512f73ed8b"
+    },
+    {
+      "stationNameTRTC": "北投",
+      "lines": [
+        {
+          "stationNameInLine": "北投",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R22",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "北投",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R22",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "北投",
+          "lineName": "新北投支線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往新北投",
+          "direction": 0,
+          "stationID": "R22",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "北投",
+          "lineName": "新北投支線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往北投",
+          "direction": 1,
+          "stationID": "R22",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "fb139908-585c-47cc-bad5-90b8fe72fd3d"
+    },
+    {
+      "stationNameTRTC": "復興崗",
+      "lines": [
+        {
+          "stationNameInLine": "復興崗",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R23",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "復興崗",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R23",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ad8998b3-7409-4de7-b888-08c855648e6f"
+    },
+    {
+      "stationNameTRTC": "忠義",
+      "lines": [
+        {
+          "stationNameInLine": "忠義",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R24",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "忠義",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R24",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "b55db115-d7a1-4f67-8767-c707994cea06"
+    },
+    {
+      "stationNameTRTC": "關渡",
+      "lines": [
+        {
+          "stationNameInLine": "關渡",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R25",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "關渡",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R25",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "9aafbbbb-7f67-4bcb-865c-d3c433e91ea5"
+    },
+    {
+      "stationNameTRTC": "竹圍",
+      "lines": [
+        {
+          "stationNameInLine": "竹圍",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R26",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "竹圍",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R26",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "ced43f8c-d0fc-4664-9ede-ecc879a833fd"
+    },
+    {
+      "stationNameTRTC": "紅樹林",
+      "lines": [
+        {
+          "stationNameInLine": "紅樹林",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R27",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "紅樹林",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R27",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "6dc5b40b-ff7a-49d1-9efc-4dd816f8199e"
+    },
+    {
+      "stationNameTRTC": "淡水",
+      "lines": [
+        {
+          "stationNameInLine": "淡水",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往淡水",
+          "direction": 0,
+          "stationID": "R28",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "淡水",
+          "lineName": "淡水信義線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往象山",
+          "direction": 1,
+          "stationID": "R28",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "fa362ed6-f5a7-456c-a60f-60c4bfd17821"
+    },
+    {
+      "stationNameTRTC": "新北投",
+      "lines": [
+        {
+          "stationNameInLine": "新北投",
+          "lineName": "新北投支線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往新北投",
+          "direction": 0,
+          "stationID": "R22A",
+          "operator": "TRTC"
+        },
+        {
+          "stationNameInLine": "新北投",
+          "lineName": "新北投支線",
+          "linecode": "R",
+          "lineColor": "red",
+          "lineDescription": "往北投",
+          "direction": 1,
+          "stationID": "R22A",
+          "operator": "TRTC"
+        }
+      ],
+      "uuid": "2199d7c0-fc8d-4024-b837-019e93a8dc72"
+    }
+  ]
+}

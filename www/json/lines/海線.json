@@ -1,0 +1,526 @@
+{
+    "stations":[
+        {
+            "stationName": "竹南",
+            "lines": [
+                {
+                    "stationNameInLine": "竹南",
+                    "lineName": "縱貫線",
+                    "linecode": "1",
+                    "lineColor": "#85dd00",
+                    "lineDescription": "新竹、中壢方向",
+                    "direction": 0,
+                    "stationID": "1250",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "竹南",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "後龍、清水方向",
+                    "direction": 1,
+                    "stationID": "1250",
+                    "lineChecker":{
+                        "mustHave":["海線"],
+                        "mustDontHave":[]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "竹南",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、臺中方向",
+                    "direction": 1,
+                    "stationID": "1250",
+                    "lineChecker":{
+                        "mustHave":["縱貫/山線"],
+                        "mustDontHave":[]
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "03746555-abb2-4819-a693-6198f111ad2c"
+        },
+        {
+            "stationName": "談文",
+            "lines": [
+                {
+                    "stationNameInLine": "談文",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2110",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "談文",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "後龍、清水方向",
+                    "direction": 1,
+                    "stationID": "2110",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "58785d9e-b939-4211-b509-1c3bec26ae22"
+        },
+        {
+            "stationName": "大山",
+            "lines": [
+                {
+                    "stationNameInLine": "大山",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2120",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大山",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "後龍、清水方向",
+                    "direction": 1,
+                    "stationID": "2120",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "e9e9acd8-a80c-41d0-afa7-439c9f1ead8f"
+        },
+        {
+            "stationName": "後龍",
+            "lines": [
+                {
+                    "stationNameInLine": "後龍",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2130",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "後龍",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "2130",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "6f2a9d46-723a-41c5-b789-01d256e20622"
+        },
+        {
+            "stationName": "龍港",
+            "lines": [
+                {
+                    "stationNameInLine": "龍港",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2140",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "龍港",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "2140",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f5d8531b-e013-49f3-811c-c6e73b1532c8"
+        },
+        {
+            "stationName": "白沙屯",
+            "lines": [
+                {
+                    "stationNameInLine": "白沙屯",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2150",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "白沙屯",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "2150",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "230c381b-966c-4a72-829a-c3d6ea265155"
+        },
+        {
+            "stationName": "新埔",
+            "lines": [
+                {
+                    "stationNameInLine": "新埔",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2160",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "新埔",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "2160",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "e8645e6b-cb9a-4af6-8c4b-0fcbfb346480"
+        },
+        {
+            "stationName": "通霄",
+            "lines": [
+                {
+                    "stationNameInLine": "通霄",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2170",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "通霄",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "2170",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "ee34daf1-bf27-4ca9-9632-36b9e3bfb23c"
+        },
+        {
+            "stationName": "苑裡",
+            "lines": [
+                {
+                    "stationNameInLine": "苑裡",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2180",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "苑裡",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "2180",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "04844f66-a0e4-4092-9abf-d11265263158"
+        },
+        {
+            "stationName": "日南",
+            "lines": [
+                {
+                    "stationNameInLine": "日南",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2190",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "日南",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "2190",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "42e44d0a-0119-46ce-9674-34728de8840e"
+        },
+        {
+            "stationName": "大甲",
+            "lines": [
+                {
+                    "stationNameInLine": "大甲",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2200",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大甲",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "2200",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "d5e8de73-c7b5-4a41-b1df-53c5c797c6da"
+        },
+        {
+            "stationName": "臺中港",
+            "lines": [
+                {
+                    "stationNameInLine": "臺中港",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2210",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "臺中港",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "2210",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "78be2afe-46d9-4c88-b497-a8b4305d7f04"
+        },
+        {
+            "stationName": "清水",
+            "lines": [
+                {
+                    "stationNameInLine": "清水",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "2220",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "清水",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "沙鹿、彰化、臺中方向",
+                    "direction": 1,
+                    "stationID": "2220",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "7a2d4455-06fd-49c6-bbe6-b72292b772d2"
+        },
+        {
+            "stationName": "沙鹿",
+            "lines": [
+                {
+                    "stationNameInLine": "沙鹿",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、竹南方向",
+                    "direction": 0,
+                    "stationID": "2230",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "沙鹿",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "彰化、新烏日、臺中方向",
+                    "direction": 1,
+                    "stationID": "2230",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "c5924b87-72b7-4ec0-bd42-a5e96e8a3d32"
+        },
+        {
+            "stationName": "龍井",
+            "lines": [
+                {
+                    "stationNameInLine": "龍井",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、竹南方向",
+                    "direction": 0,
+                    "stationID": "2240",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "龍井",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "彰化、新烏日、臺中方向",
+                    "direction": 1,
+                    "stationID": "2240",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "78e5951d-abf5-486c-a15b-718e10206fef"
+        },
+        {
+            "stationName": "大肚",
+            "lines": [
+                {
+                    "stationNameInLine": "大肚",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、竹南方向",
+                    "direction": 0,
+                    "stationID": "2250",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大肚",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "彰化、新烏日、臺中方向",
+                    "direction": 1,
+                    "stationID": "2250",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "435e5bb3-b3a3-4b50-81eb-ee8c14862696"
+        },
+        {
+            "stationName": "追分",
+            "lines": [
+                {
+                    "stationNameInLine": "追分",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、竹南方向",
+                    "direction": 0,
+                    "stationID": "2260",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "追分",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "彰化方向",
+                    "direction": 1,
+                    "stationID": "2260",
+                    "lineChecker":{
+                        "mustHave":[],
+                        "mustDontHave":["成追線"]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "追分",
+                    "lineName": "成追線",
+                    "linecode": "",
+                    "lineColor": "yellow",
+                    "lineDescription": "新烏日、臺中方向",
+                    "direction": 1,
+                    "stationID": "2260",
+                    "lineChecker":{
+                        "mustHave":["成追線"],
+                        "mustDontHave":[]
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "1b0eaa4d-ae24-4d34-8dab-3a1e03671640"
+        },
+        {
+            "stationName": "彰化",
+            "lines": [
+                {
+                    "stationNameInLine": "彰化",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、苗栗方向",
+                    "direction": 0,
+                    "stationID": "3360",
+                    "lineChecker":{
+                        "mustHave":["縱貫/山線"],
+                        "mustDontHave":[""]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "彰化",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3360",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "彰化",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、竹南方向",
+                    "direction": 0,
+                    "stationID": "3360",
+                    "lineChecker":{
+                        "mustHave":["海線"],
+                        "mustDontHave":[""]
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "c6e65460-dcba-4b06-b158-361d2c7efcf9"
+        }
+    ]
+}
