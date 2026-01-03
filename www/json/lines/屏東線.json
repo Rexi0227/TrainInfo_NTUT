@@ -1,0 +1,628 @@
+{
+    "stations":[
+        {
+            "stationName": "屏東",
+            "lines": [
+                {
+                    "stationNameInLine": "屏東",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、新左營方向",
+                    "direction": 0,
+                    "stationID": "5000",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "屏東",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、枋寮方向",
+                    "direction": 1,
+                    "stationID": "5000",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "57aff3fb-9dbd-4c16-903b-3ac38f13c1df"
+        },
+        {
+            "stationName": "歸來",
+            "lines": [
+                {
+                    "stationNameInLine": "歸來",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "屏東、高雄方向",
+                    "direction": 0,
+                    "stationID": "5010",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "歸來",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、枋寮方向",
+                    "direction": 1,
+                    "stationID": "5010",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "9af52927-8084-4a48-8cff-835b82124bca"
+        },
+        {
+            "stationName": "麟洛",
+            "lines": [
+                {
+                    "stationNameInLine": "麟洛",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "屏東、高雄方向",
+                    "direction": 0,
+                    "stationID": "5020",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "麟洛",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、枋寮方向",
+                    "direction": 1,
+                    "stationID": "5020",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "447e483b-555c-4c8c-bd31-602c27856bd0"
+        },
+        {
+            "stationName": "西勢",
+            "lines": [
+                {
+                    "stationNameInLine": "西勢",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "屏東、高雄方向",
+                    "direction": 0,
+                    "stationID": "5030",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "西勢",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、枋寮方向",
+                    "direction": 1,
+                    "stationID": "5030",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "5c416782-b441-466b-881e-31a4d78135fd"
+        },
+        {
+            "stationName": "竹田",
+            "lines": [
+                {
+                    "stationNameInLine": "竹田",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "屏東、高雄方向",
+                    "direction": 0,
+                    "stationID": "5040",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "竹田",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、枋寮方向",
+                    "direction": 1,
+                    "stationID": "5040",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "e41b502a-acf6-4132-9efa-19efeb7833d2"
+        },
+        {
+            "stationName": "潮州",
+            "lines": [
+                {
+                    "stationNameInLine": "潮州",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "屏東、高雄方向",
+                    "direction": 0,
+                    "stationID": "5050",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "潮州",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、臺東方向",
+                    "direction": 1,
+                    "stationID": "5050",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "4774b9dd-e3f4-45c5-9f5e-6f6c91c138f8"
+        },
+        {
+            "stationName": "崁頂",
+            "lines": [
+                {
+                    "stationNameInLine": "崁頂",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、屏東方向",
+                    "direction": 0,
+                    "stationID": "5060",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "崁頂",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、臺東方向",
+                    "direction": 1,
+                    "stationID": "5060",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "0e36a61a-f504-4406-9990-e4d9cb43d993"
+        },
+        {
+            "stationName": "南州",
+            "lines": [
+                {
+                    "stationNameInLine": "南州",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、屏東方向",
+                    "direction": 0,
+                    "stationID": "5070",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "南州",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、臺東方向",
+                    "direction": 1,
+                    "stationID": "5070",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "17920edd-1202-4529-99b2-c83ce67c6456"
+        },
+        {
+            "stationName": "鎮安",
+            "lines": [
+                {
+                    "stationNameInLine": "鎮安",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、屏東方向",
+                    "direction": 0,
+                    "stationID": "5080",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "鎮安",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、臺東方向",
+                    "direction": 1,
+                    "stationID": "5080",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "8da0d5a0-9e47-48c0-854a-114212506428"
+        },
+        {
+            "stationName": "林邊",
+            "lines": [
+                {
+                    "stationNameInLine": "林邊",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、屏東方向",
+                    "direction": 0,
+                    "stationID": "5090",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "林邊",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、臺東方向",
+                    "direction": 1,
+                    "stationID": "5090",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "11707ff5-507f-48d7-8c8a-b9e01b12eaa2"
+        },
+        {
+            "stationName": "佳冬",
+            "lines": [
+                {
+                    "stationNameInLine": "佳冬",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、屏東方向",
+                    "direction": 0,
+                    "stationID": "5100",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "佳冬",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、臺東方向",
+                    "direction": 1,
+                    "stationID": "5100",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "0fdd3bf4-faa4-4859-8d25-c610d255de54"
+        },
+        {
+            "stationName": "東海",
+            "lines": [
+                {
+                    "stationNameInLine": "東海",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、屏東方向",
+                    "direction": 0,
+                    "stationID": "5110",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "東海",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、臺東方向",
+                    "direction": 1,
+                    "stationID": "5110",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "3a04051d-b53c-4570-bea9-86439c41180a"
+        },
+        {
+            "stationName": "枋寮",
+            "lines": [
+                {
+                    "stationNameInLine": "枋寮",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、屏東方向",
+                    "direction": 0,
+                    "stationID": "5120",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "枋寮",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5120",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "07cdcd74-3c5c-4437-8bea-7a9bda549179"
+        },
+        {
+            "stationName": "加祿",
+            "lines": [
+                {
+                    "stationNameInLine": "加祿",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5130",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "加祿",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5130",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "3ad0e61a-1ac8-4230-846d-7de05739ee77"
+        },
+        {
+            "stationName": "內獅",
+            "lines": [
+                {
+                    "stationNameInLine": "內獅",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5140",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "內獅",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5140",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "8574803f-65ea-4a50-8050-9f8647720125"
+        },
+        {
+            "stationName": "枋山",
+            "lines": [
+                {
+                    "stationNameInLine": "枋山",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5160",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "枋山",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5160",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "a9c9c78c-a785-406d-9011-9dbcf9489f43"
+        },
+        {
+            "stationName": "枋野",
+            "lines": [
+                {
+                    "stationNameInLine": "枋野",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5170",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "枋野",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5170",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "355f5487-4a64-4d93-b039-2affa67b66ff"
+        },
+        {
+            "stationName": "大武",
+            "lines": [
+                {
+                    "stationNameInLine": "大武",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5190",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大武",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5190",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "6abf7012-163d-43be-a176-6517339d9582"
+        },
+        {
+            "stationName": "瀧溪",
+            "lines": [
+                {
+                    "stationNameInLine": "瀧溪",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5200",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "瀧溪",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5200",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "9c270d4b-f1fd-4c02-9fed-14728bcac5f5"
+        },
+        {
+            "stationName": "金崙",
+            "lines": [
+                {
+                    "stationNameInLine": "金崙",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5210",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "金崙",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5210",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "2464eb2f-cf5f-4694-a656-a6cbe632849d"
+        },
+        {
+            "stationName": "太麻里",
+            "lines": [
+                {
+                    "stationNameInLine": "太麻里",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5220",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "太麻里",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5220",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "5437f66e-2ee2-4dff-b95c-12a4e55d308a"
+        },
+        {
+            "stationName": "知本",
+            "lines": [
+                {
+                    "stationNameInLine": "知本",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5230",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "知本",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5230",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "95ad5ab5-6e6d-4306-9e65-d78905b39d28"
+        },
+        {
+            "stationName": "康樂",
+            "lines": [
+                {
+                    "stationNameInLine": "康樂",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "5240",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "康樂",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "臺東、花蓮方向",
+                    "direction": 1,
+                    "stationID": "5240",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "d72d6dc9-dde5-436b-bdf7-d31913392ba0"
+        },
+        {
+            "stationName": "臺東",
+            "lines": [
+                {
+                    "stationNameInLine": "臺東",
+                    "lineName": "臺東線",
+                    "linecode": "6",
+                    "lineColor": "#054d01",
+                    "lineDescription": "玉里、花蓮方向",
+                    "direction": 1,
+                    "stationID": "6000",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "臺東",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "枋寮、屏東方向",
+                    "direction": 0,
+                    "stationID": "6000",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "b45ad777-9a62-45a3-b6ef-14011c98c5bb"
+        }
+    ]
+}

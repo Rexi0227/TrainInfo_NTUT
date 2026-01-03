@@ -1,0 +1,2078 @@
+{
+    "stations":[
+        {
+            "stationName": "造橋",
+            "lines": [
+                {
+                    "stationNameInLine": "造橋",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "3140",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "造橋",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、臺中方向",
+                    "direction": 1,
+                    "stationID": "3140",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "ae082235-bd01-457c-828d-92d99bbbd900"
+        },
+        {
+            "stationName": "豐富",
+            "lines": [
+                {
+                    "stationNameInLine": "豐富",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "3150",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "豐富",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、臺中方向",
+                    "direction": 1,
+                    "stationID": "3150",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "苗栗",
+                    "lineName": "台灣高鐵",
+                    "linecode": "THSR",
+                    "lineColor": "#d83632",
+                    "lineDescription": "",
+                    "direction": 0
+                },
+                {
+                    "stationNameInLine": "苗栗",
+                    "lineName": "台灣高鐵",
+                    "linecode": "THSR",
+                    "lineColor": "#d83632",
+                    "lineDescription": "",
+                    "direction": 1
+                }
+            ],
+            "stationNameTHSR": "高鐵苗栗",
+            "uuid": "b0c3c325-1d18-45aa-b409-6b3b069969cd"
+        },
+        {
+            "stationName": "苗栗",
+            "lines": [
+                {
+                    "stationNameInLine": "苗栗",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "竹南、新竹方向",
+                    "direction": 0,
+                    "stationID": "3160",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "苗栗",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3160",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "8b216683-4ffb-4233-932b-633920be0193"
+        },
+        {
+            "stationName": "南勢",
+            "lines": [
+                {
+                    "stationNameInLine": "南勢",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3170",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "南勢",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3170",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "35db4a59-b5e2-44ef-832f-1011a8569201"
+        },
+        {
+            "stationName": "銅鑼",
+            "lines": [
+                {
+                    "stationNameInLine": "銅鑼",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3180",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "銅鑼",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3180",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "629e94ad-2d57-4aea-ba9b-556c4e30e1d8"
+        },
+        {
+            "stationName": "三義",
+            "lines": [
+                {
+                    "stationNameInLine": "三義",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3190",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "三義",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3190",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "e365a6ed-6809-4cef-94fb-f6dd4f0888b5"
+        },
+        {
+            "stationName": "泰安",
+            "lines": [
+                {
+                    "stationNameInLine": "泰安",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3210",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "泰安",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3210",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "b9635ab4-80c4-4cb6-9e5f-af1aef736570"
+        },
+        {
+            "stationName": "后里",
+            "lines": [
+                {
+                    "stationNameInLine": "后里",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3220",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "后里",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3220",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "cf7003d5-46a2-4643-97ed-8aa7aa84ad40"
+        },
+        {
+            "stationName": "豐原",
+            "lines": [
+                {
+                    "stationNameInLine": "豐原",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3230",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "豐原",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3230",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "1a506a20-a3db-4d2a-9654-b1e934a4c8f9"
+        },
+        {
+            "stationName": "栗林",
+            "lines": [
+                {
+                    "stationNameInLine": "栗林",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3240",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "栗林",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3240",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "89fc9991-b73e-4576-92a2-0ddcaf356d52"
+        },
+        {
+            "stationName": "潭子",
+            "lines": [
+                {
+                    "stationNameInLine": "潭子",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3250",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "潭子",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3250",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "12598c64-7035-424a-92e0-dee22cbdf1aa"
+        },
+        {
+            "stationName": "頭家厝",
+            "lines": [
+                {
+                    "stationNameInLine": "頭家厝",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3260",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "頭家厝",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3260",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "52a87e07-cac2-4ab7-8d69-814fcfc5e39f"
+        },
+        {
+            "stationName": "松竹",
+            "lines": [
+                {
+                    "stationNameInLine": "松竹",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3270",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "松竹",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3270",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "9c5588a6-ceca-4827-bc5c-9086b7b82f48"
+        },
+        {
+            "stationName": "太原",
+            "lines": [
+                {
+                    "stationNameInLine": "太原",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3280",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "太原",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3280",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "6799a9f7-eb97-4641-9a8b-e9c837e4ec8a"
+        },
+        {
+            "stationName": "精武",
+            "lines": [
+                {
+                    "stationNameInLine": "精武",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3290",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "精武",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、彰化方向",
+                    "direction": 1,
+                    "stationID": "3290",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "0a73c898-6680-4501-834e-f5b0a0168caa"
+        },
+        {
+            "stationName": "臺中",
+            "lines": [
+                {
+                    "stationNameInLine": "臺中",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "苗栗、竹南方向",
+                    "direction": 0,
+                    "stationID": "3300",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "臺中",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "3300",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "26ff8778-e78b-40f4-a5c3-e1019804b216"
+        },
+        {
+            "stationName": "五權",
+            "lines": [
+                {
+                    "stationNameInLine": "五權",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、苗栗方向",
+                    "direction": 0,
+                    "stationID": "3310",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "五權",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "3310",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "d1a7f40e-d04e-455c-8746-4dc7947e9e83"
+        },
+        {
+            "stationName": "大慶",
+            "lines": [
+                {
+                    "stationNameInLine": "大慶",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、苗栗方向",
+                    "direction": 0,
+                    "stationID": "3320",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大慶",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "3320",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "278cb6cf-8634-44ed-8470-74690f08e40b"
+        },
+        {
+            "stationName": "烏日",
+            "lines": [
+                {
+                    "stationNameInLine": "烏日",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、苗栗方向",
+                    "direction": 0,
+                    "stationID": "3330",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "烏日",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "3330",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "e53ebecf-9706-4249-afca-46ae2e3bb61b"
+        },
+        {
+            "stationName": "新烏日",
+            "lines": [
+                {
+                    "stationNameInLine": "新烏日",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、苗栗方向",
+                    "direction": 0,
+                    "stationID": "3340",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "新烏日",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、沙鹿方向",
+                    "direction": 1,
+                    "stationID": "3340",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "台中",
+                    "lineName": "台灣高鐵",
+                    "linecode": "THSR",
+                    "lineColor": "#d83632",
+                    "lineDescription": "",
+                    "direction": 0
+                },
+                {
+                    "stationNameInLine": "台中",
+                    "lineName": "台灣高鐵",
+                    "linecode": "THSR",
+                    "lineColor": "#d83632",
+                    "lineDescription": "",
+                    "direction": 1
+                }
+            ],
+            "stationNameTHSR": "高鐵台中",
+            "uuid": "dbabd69a-21b3-4acb-b995-ec84d5c21cdc"
+        },
+        {
+            "stationName": "成功",
+            "lines": [
+                {
+                    "stationNameInLine": "成功",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、苗栗方向",
+                    "direction": 0,
+                    "stationID": "3350",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "成功",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、斗六方向",
+                    "direction": 1,
+                    "stationID": "3350",
+                    "lineChecker":{
+                        "mustHave":[],
+                        "mustDontHave":["成追線"]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "成功",
+                    "lineName": "成追線",
+                    "linecode": "清水、竹南方向",
+                    "lineColor": "yellow",
+                    "lineDescription": "沙鹿、清水方向",
+                    "direction": 0,
+                    "stationID": "3350",
+                    "lineChecker":{
+                        "mustHave":["成追線"],
+                        "mustDontHave":[]
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "cd9f226d-f727-4476-8e55-a27318599005"
+        },
+        {
+            "stationName": "彰化",
+            "lines": [
+                {
+                    "stationNameInLine": "彰化",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺中、苗栗方向",
+                    "direction": 0,
+                    "stationID": "3360",
+                    "lineChecker":{
+                        "mustHave":["縱貫/山線"],
+                        "mustDontHave":[""]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "彰化",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3360",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "彰化",
+                    "lineName": "海線",
+                    "linecode": "2",
+                    "lineColor": "#65fcf2",
+                    "lineDescription": "清水、竹南方向",
+                    "direction": 0,
+                    "stationID": "3360",
+                    "lineChecker":{
+                        "mustHave":["海線"],
+                        "mustDontHave":[""]
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "c6e65460-dcba-4b06-b158-361d2c7efcf9"
+        },
+        {
+            "stationName": "花壇",
+            "lines": [
+                {
+                    "stationNameInLine": "花壇",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3370",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "花壇",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3370",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "0a51717d-b44e-4e6f-883d-e6382afe3ad8"
+        },
+        {
+            "stationName": "大村",
+            "lines": [
+                {
+                    "stationNameInLine": "大村",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3380",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大村",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3380",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "808d1be3-173b-4f4e-9cf9-af80d909c0c6"
+        },
+        {
+            "stationName": "員林",
+            "lines": [
+                {
+                    "stationNameInLine": "員林",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3390",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "員林",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3390",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "da75ac91-bf59-4c51-a080-0647cb559977"
+        },
+        {
+            "stationName": "永靖",
+            "lines": [
+                {
+                    "stationNameInLine": "永靖",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3400",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "永靖",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3400",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "949ffb0e-3013-427d-8319-f008143d5e73"
+        },
+        {
+            "stationName": "社頭",
+            "lines": [
+                {
+                    "stationNameInLine": "社頭",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3410",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "社頭",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3410",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "a8efdafe-5bd7-491d-88f8-ce1585c2d149"
+        },
+        {
+            "stationName": "田中",
+            "lines": [
+                {
+                    "stationNameInLine": "田中",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3420",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "田中",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3420",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "55ee01e5-5379-4386-9001-f41d9268d378"
+        },
+        {
+            "stationName": "二水",
+            "lines": [
+                {
+                    "stationNameInLine": "二水",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3430",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "二水",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3430",
+                    "lineChecker":{
+                        "mustHave":[],
+                        "mustDontHave":["集集線"]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "二水",
+                    "lineName": "集集線",
+                    "linecode": "",
+                    "lineColor": "#8a8a8a",
+                    "lineDescription": "",
+                    "direction": 1,
+                    "stationID": "3430",
+                    "lineChecker":{
+                        "mustHave":["集集線"],
+                        "mustDontHave":[]
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "4d3133b8-c676-4cd1-acc8-fec0954a2e78"
+        },
+        {
+            "stationName": "林內",
+            "lines": [
+                {
+                    "stationNameInLine": "林內",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3450",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "林內",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3450",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f8dc6aa6-204d-4959-896d-f01975c0c315"
+        },
+        {
+            "stationName": "石榴",
+            "lines": [
+                {
+                    "stationNameInLine": "石榴",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3460",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "石榴",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、嘉義方向",
+                    "direction": 1,
+                    "stationID": "3460",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "31f7b975-a5f3-48dc-acc6-31700fe99d2b"
+        },
+        {
+            "stationName": "斗六",
+            "lines": [
+                {
+                    "stationNameInLine": "斗六",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "彰化、臺中方向",
+                    "direction": 0,
+                    "stationID": "3470",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "斗六",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、臺南方向",
+                    "direction": 1,
+                    "stationID": "3470",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "4734eacb-53f8-4b7c-8819-c2a558a7e55e"
+        },
+        {
+            "stationName": "斗南",
+            "lines": [
+                {
+                    "stationNameInLine": "斗南",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、彰化方向",
+                    "direction": 0,
+                    "stationID": "3480",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "斗南",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、臺南方向",
+                    "direction": 1,
+                    "stationID": "3480",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "ac9cefa3-c6c3-4d48-981a-bca91a160a49"
+        },
+        {
+            "stationName": "石龜",
+            "lines": [
+                {
+                    "stationNameInLine": "石龜",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、彰化方向",
+                    "direction": 0,
+                    "stationID": "3490",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "石龜",
+                    "lineName": "縱貫/山線",
+                    "linecode": "3",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、臺南方向",
+                    "direction": 1,
+                    "stationID": "3490",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "0e09286e-2096-47aa-9cb8-7ad3ca3dc424"
+        },
+        {
+            "stationName": "大林",
+            "lines": [
+                {
+                    "stationNameInLine": "大林",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、彰化方向",
+                    "direction": 0,
+                    "stationID": "4050",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大林",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、臺南方向",
+                    "direction": 1,
+                    "stationID": "4050",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "e05a788e-8487-4ad2-a8f1-f888d81993cb"
+        },
+        {
+            "stationName": "民雄",
+            "lines": [
+                {
+                    "stationNameInLine": "民雄",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、彰化方向",
+                    "direction": 0,
+                    "stationID": "4060",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "民雄",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、臺南方向",
+                    "direction": 1,
+                    "stationID": "4060",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f37a8733-b8e7-4941-b68a-10c3022b016d"
+        },
+        {
+            "stationName": "嘉北",
+            "lines": [
+                {
+                    "stationNameInLine": "嘉北",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、彰化方向",
+                    "direction": 0,
+                    "stationID": "4070",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "嘉北",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、臺南方向",
+                    "direction": 1,
+                    "stationID": "4070",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "c6a27a74-d4a4-4a80-a982-ff143f77f548"
+        },
+        {
+            "stationName": "嘉義",
+            "lines": [
+                {
+                    "stationNameInLine": "嘉義",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "斗六、彰化方向",
+                    "direction": 0,
+                    "stationID": "4080",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "嘉義",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4080",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "ee57b146-21ee-4f31-97f8-8717f169a46e"
+        },
+        {
+            "stationName": "水上",
+            "lines": [
+                {
+                    "stationNameInLine": "水上",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4090",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "水上",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4090",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "0786dd6d-5703-4d4a-bc9f-91cf1b5385f5"
+        },
+        {
+            "stationName": "南靖",
+            "lines": [
+                {
+                    "stationNameInLine": "南靖",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4100",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "南靖",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4100",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "199a8740-c01a-4f25-a4f6-e1022fad010f"
+        },
+        {
+            "stationName": "後壁",
+            "lines": [
+                {
+                    "stationNameInLine": "後壁",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4110",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "後壁",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4110",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "e535da4d-500a-43e8-8cc1-139d528b44db"
+        },
+        {
+            "stationName": "新營",
+            "lines": [
+                {
+                    "stationNameInLine": "新營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4120",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "新營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4120",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "b8f9d33a-268e-479c-8ae6-1c80befb77f3"
+        },
+        {
+            "stationName": "柳營",
+            "lines": [
+                {
+                    "stationNameInLine": "柳營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4130",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "柳營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4130",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "7973a85b-cc6d-41a2-9c03-91825575ebf4"
+        },
+        {
+            "stationName": "林鳳營",
+            "lines": [
+                {
+                    "stationNameInLine": "林鳳營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4140",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "林鳳營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4140",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f6948baa-f8d5-48d8-9fcb-4cdb0b31ff28"
+        },
+        {
+            "stationName": "隆田",
+            "lines": [
+                {
+                    "stationNameInLine": "隆田",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4150",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "隆田",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4150",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "b023c251-5ded-4070-b767-0fcecc1edf70"
+        },
+        {
+            "stationName": "拔林",
+            "lines": [
+                {
+                    "stationNameInLine": "拔林",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4160",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "拔林",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4160",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "e2afa660-55e4-45d8-8199-848acf9798e3"
+        },
+        {
+            "stationName": "善化",
+            "lines": [
+                {
+                    "stationNameInLine": "善化",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4170",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "善化",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4170",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "efb2a9f3-0d67-4bf7-9eeb-70c52fca0472"
+        },
+        {
+            "stationName": "南科",
+            "lines": [
+                {
+                    "stationNameInLine": "南科",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4180",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "南科",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4180",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "d8354fa9-ba8b-4049-bf73-6ab00954fe18"
+        },
+        {
+            "stationName": "新市",
+            "lines": [
+                {
+                    "stationNameInLine": "新市",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4190",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "新市",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4190",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "416ea78d-8cd7-4999-a46e-8165a863d614"
+        },
+        {
+            "stationName": "永康",
+            "lines": [
+                {
+                    "stationNameInLine": "永康",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4200",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "永康",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4200",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f5e3e61f-1543-493c-b1e4-eef352467a80"
+        },
+        {
+            "stationName": "大橋",
+            "lines": [
+                {
+                    "stationNameInLine": "大橋",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4210",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大橋",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、新左營方向",
+                    "direction": 1,
+                    "stationID": "4210",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "9a0f526e-6a40-42d1-bfc6-ac0b4e3bcbbd"
+        },
+        {
+            "stationName": "臺南",
+            "lines": [
+                {
+                    "stationNameInLine": "臺南",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "嘉義、斗六方向",
+                    "direction": 0,
+                    "stationID": "4220",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "臺南",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、高雄、沙崙方向",
+                    "direction": 1,
+                    "stationID": "4220",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "29dc5cac-b7f5-4094-9944-f8824e577409"
+        },
+        {
+            "stationName": "保安",
+            "lines": [
+                {
+                    "stationNameInLine": "保安",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、嘉義方向",
+                    "direction": 0,
+                    "stationID": "4250",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "保安",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、高雄、沙崙方向",
+                    "direction": 1,
+                    "stationID": "4250",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "ba281de7-78e6-446d-b6f2-af5b2759d0fb"
+        },
+        {
+            "stationName": "仁德",
+            "lines": [
+                {
+                    "stationNameInLine": "仁德",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、嘉義方向",
+                    "direction": 0,
+                    "stationID": "4260",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "仁德",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、高雄、沙崙方向",
+                    "direction": 1,
+                    "stationID": "4260",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "21dca398-086a-4cdd-a65b-0e059e495a4f"
+        },
+        {
+            "stationName": "中洲",
+            "lines": [
+                {
+                    "stationNameInLine": "中洲",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、嘉義方向",
+                    "direction": 0,
+                    "stationID": "4270",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "中洲",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、高雄方向",
+                    "direction": 1,
+                    "stationID": "4270",
+                    "lineChecker":{
+                        "mustHave":[],
+                        "mustDontHave":["沙崙線"]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "中洲",
+                    "lineName": "沙崙線",
+                    "linecode": "",
+                    "lineColor": "#8a8a8a",
+                    "lineDescription": "長榮大學、沙崙方向",
+                    "direction": 1,
+                    "stationID": "4270",
+                    "lineChecker":{
+                        "mustHave":["沙崙線"],
+                        "mustDontHave":[]
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f5a9a90e-1ccf-40b1-a031-44e93221aa58"
+        },
+        {
+            "stationName": "大湖",
+            "lines": [
+                {
+                    "stationNameInLine": "大湖",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、嘉義方向",
+                    "direction": 0,
+                    "stationID": "4290",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大湖",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、高雄方向",
+                    "direction": 1,
+                    "stationID": "4290",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "302ee952-7ee1-439e-8c07-2635f0d32679"
+        },
+        {
+            "stationName": "路竹",
+            "lines": [
+                {
+                    "stationNameInLine": "路竹",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、嘉義方向",
+                    "direction": 0,
+                    "stationID": "4300",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "路竹",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、高雄方向",
+                    "direction": 1,
+                    "stationID": "4300",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "0c0b46f1-cf20-47bc-9674-410b01bae2f2"
+        },
+        {
+            "stationName": "岡山",
+            "lines": [
+                {
+                    "stationNameInLine": "岡山",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、嘉義方向",
+                    "direction": 0,
+                    "stationID": "4310",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "岡山",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、高雄方向",
+                    "direction": 1,
+                    "stationID": "4310",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "27891b22-04c3-4981-b3a9-a8f2e3839ad0"
+        },
+        {
+            "stationName": "橋頭",
+            "lines": [
+                {
+                    "stationNameInLine": "橋頭",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、嘉義方向",
+                    "direction": 0,
+                    "stationID": "4320",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "橋頭",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、高雄方向",
+                    "direction": 1,
+                    "stationID": "4320",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "58fb5cd5-5c59-43ce-907a-f76342ae4240"
+        },
+        {
+            "stationName": "楠梓",
+            "lines": [
+                {
+                    "stationNameInLine": "楠梓",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、嘉義方向",
+                    "direction": 0,
+                    "stationID": "4330",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "楠梓",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、高雄方向",
+                    "direction": 1,
+                    "stationID": "4330",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "02edec2c-2e85-499a-a87d-87cec8d06d60"
+        },
+        {
+            "stationName": "新左營",
+            "lines": [
+                {
+                    "stationNameInLine": "新左營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "臺南、嘉義方向",
+                    "direction": 0,
+                    "stationID": "4340",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "新左營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、屏東方向",
+                    "direction": 1,
+                    "stationID": "4340",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "左營",
+                    "lineName": "台灣高鐵",
+                    "linecode": "THSR",
+                    "lineColor": "#d83632",
+                    "lineDescription": "",
+                    "direction": 0
+                },
+                {
+                    "stationNameInLine": "左營",
+                    "lineName": "台灣高鐵",
+                    "linecode": "THSR",
+                    "lineColor": "#d83632",
+                    "lineDescription": "",
+                    "direction": 1
+                }
+            ],
+            "stationNameTHSR": "高鐵左營",
+            "uuid": "9879fcef-684d-4bef-95aa-906ca58c4d27"
+        },
+        {
+            "stationName": "左營",
+            "lines": [
+                {
+                    "stationNameInLine": "左營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、臺南方向",
+                    "direction": 0,
+                    "stationID": "4350",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "左營",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、屏東方向",
+                    "direction": 1,
+                    "stationID": "4350",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "9b72d005-bd2f-4d67-9b12-eef9ef5f1093"
+        },
+        {
+            "stationName": "內惟",
+            "lines": [
+                {
+                    "stationNameInLine": "內惟",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、臺南方向",
+                    "direction": 0,
+                    "stationID": "4360",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "內惟",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、屏東方向",
+                    "direction": 1,
+                    "stationID": "4360",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f62a98ed-895a-4719-a7b0-6fbaed226b61"
+        },
+        {
+            "stationName": "美術館",
+            "lines": [
+                {
+                    "stationNameInLine": "美術館",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、臺南方向",
+                    "direction": 0,
+                    "stationID": "4370",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "美術館",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、屏東方向",
+                    "direction": 1,
+                    "stationID": "4370",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "0dbc57f3-8829-45e2-91d3-4d8fb213697e"
+        },
+        {
+            "stationName": "鼓山",
+            "lines": [
+                {
+                    "stationNameInLine": "鼓山",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、臺南方向",
+                    "direction": 0,
+                    "stationID": "4380",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "鼓山",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、屏東方向",
+                    "direction": 1,
+                    "stationID": "4380",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "8023398a-14d3-4132-8f02-b13df69542aa"
+        },
+        {
+            "stationName": "三塊厝",
+            "lines": [
+                {
+                    "stationNameInLine": "三塊厝",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、臺南方向",
+                    "direction": 0,
+                    "stationID": "4390",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "三塊厝",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、屏東方向",
+                    "direction": 1,
+                    "stationID": "4390",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "be061d3b-526f-4b9e-8b05-ef07f2ae32cd"
+        },
+        {
+            "stationName": "高雄",
+            "lines": [
+                {
+                    "stationNameInLine": "高雄",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "新左營、臺南方向",
+                    "direction": 0,
+                    "stationID": "4400",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "高雄",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "屏東、潮州方向",
+                    "direction": 1,
+                    "stationID": "4400",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "163ddede-be98-4ef4-9143-acec44ec6236"
+        },
+        {
+            "stationName": "民族",
+            "lines": [
+                {
+                    "stationNameInLine": "民族",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、新左營方向",
+                    "direction": 0,
+                    "stationID": "4410",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "民族",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "屏東、潮州方向",
+                    "direction": 1,
+                    "stationID": "4410",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "9b0b4206-6e36-4ba6-9525-eeb74c38cb1d"
+        },
+        {
+            "stationName": "科工館",
+            "lines": [
+                {
+                    "stationNameInLine": "科工館",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、新左營方向",
+                    "direction": 0,
+                    "stationID": "4420",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "科工館",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "屏東、潮州方向",
+                    "direction": 1,
+                    "stationID": "4420",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "71a9f3a4-876a-433d-ac28-04befdca90d4"
+        },
+        {
+            "stationName": "正義",
+            "lines": [
+                {
+                    "stationNameInLine": "正義",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、新左營方向",
+                    "direction": 0,
+                    "stationID": "4430",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "正義",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "屏東、潮州方向",
+                    "direction": 1,
+                    "stationID": "4430",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "1770d209-c794-4eea-b3f5-b0ec7563bc4d"
+        },
+        {
+            "stationName": "鳳山",
+            "lines": [
+                {
+                    "stationNameInLine": "鳳山",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、新左營方向",
+                    "direction": 0,
+                    "stationID": "4440",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "鳳山",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "屏東、潮州方向",
+                    "direction": 1,
+                    "stationID": "4440",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "3d9a043f-bdbc-46db-b652-767ee87a4a88"
+        },
+        {
+            "stationName": "後庄",
+            "lines": [
+                {
+                    "stationNameInLine": "後庄",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、新左營方向",
+                    "direction": 0,
+                    "stationID": "4450",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "後庄",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "屏東、潮州方向",
+                    "direction": 1,
+                    "stationID": "4450",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f6dea42d-b193-44b2-8c8f-62bc54161749"
+        },
+        {
+            "stationName": "九曲堂",
+            "lines": [
+                {
+                    "stationNameInLine": "九曲堂",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、新左營方向",
+                    "direction": 0,
+                    "stationID": "4460",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "九曲堂",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "屏東、潮州方向",
+                    "direction": 1,
+                    "stationID": "4460",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "7ea702fb-827c-4689-bbc5-b95bb2074ae1"
+        },
+        {
+            "stationName": "六塊厝",
+            "lines": [
+                {
+                    "stationNameInLine": "六塊厝",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、新左營方向",
+                    "direction": 0,
+                    "stationID": "4470",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "六塊厝",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "屏東、潮州方向",
+                    "direction": 1,
+                    "stationID": "4470",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "8494c707-95b8-4f3e-ab57-baeac7bf4ba0"
+        },
+        {
+            "stationName": "屏東",
+            "lines": [
+                {
+                    "stationNameInLine": "屏東",
+                    "lineName": "縱貫/山線",
+                    "linecode": "4",
+                    "lineColor": "#2390fc",
+                    "lineDescription": "高雄、新左營方向",
+                    "direction": 0,
+                    "stationID": "5000",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "屏東",
+                    "lineName": "屏東/南迴線",
+                    "linecode": "5",
+                    "lineColor": "#8f14f5",
+                    "lineDescription": "潮州、枋寮方向",
+                    "direction": 1,
+                    "stationID": "5000",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "57aff3fb-9dbd-4c16-903b-3ac38f13c1df"
+        }
+    ],
+    "reverse":false
+}

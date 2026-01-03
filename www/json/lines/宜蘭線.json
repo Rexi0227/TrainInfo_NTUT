@@ -1,0 +1,1077 @@
+{
+    "stations": [
+        {
+            "stationName": "八堵",
+            "lines": [
+                {
+                    "stationNameInLine": "八堵",
+                    "lineName": "縱貫線",
+                    "linecode": "0",
+                    "lineColor": "#85dd00",
+                    "lineDescription": "三坑、基隆方向",
+                    "direction": 0,
+                    "stationID": "0920",
+                    "lineChecker":{
+                        "mustHave":["縱貫線"],
+                        "mustDontHave":["宜蘭/北迴線"]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "八堵",
+                    "lineName": "縱貫線",
+                    "linecode": "0",
+                    "lineColor": "#85dd00",
+                    "lineDescription": "七堵、臺北方向",
+                    "direction": 1,
+                    "stationID": "0920",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "八堵",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、宜蘭方向",
+                    "direction": 0,
+                    "stationID": "0920",
+                    "lineChecker":{
+                        "mustHave":["宜蘭/北迴線"],
+                        "mustDontHave":[]
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "c2b62dd2-39a9-4c8b-8d2b-a20d6b72e2af"
+        },
+        {
+            "stationName": "暖暖",
+            "lines": [
+                {
+                    "stationNameInLine": "暖暖",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、宜蘭方向",
+                    "direction": 0,
+                    "stationID": "7390",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "暖暖",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "八堵、臺北方向",
+                    "direction": 1,
+                    "stationID": "7390",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "dd38e881-9b16-49d6-bf74-0cedac0dd4b2"
+        },
+        {
+            "stationName": "四腳亭",
+            "lines": [
+                {
+                    "stationNameInLine": "四腳亭",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、宜蘭方向",
+                    "direction": 0,
+                    "stationID": "7380",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "四腳亭",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "八堵、臺北方向",
+                    "direction": 1,
+                    "stationID": "7380",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "d189666d-59a4-4e7f-9293-fb0c36d9bc56"
+        },
+        {
+            "stationName": "瑞芳",
+            "lines": [
+                {
+                    "stationNameInLine": "瑞芳",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7360",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "瑞芳",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "八堵、臺北方向",
+                    "direction": 1,
+                    "stationID": "7360",
+                    "lineChecker": {
+                        "mustHave": [],
+                        "mustDontHave": [
+                            "平溪/深澳線"
+                        ]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "瑞芳",
+                    "lineName": "平溪/深澳線",
+                    "linecode": "",
+                    "lineColor": "8a8a8a",
+                    "lineDescription": "",
+                    "direction": 1,
+                    "stationID": "7360",
+                    "lineChecker": {
+                        "mustHave": [
+                            "平溪/深澳線"
+                        ],
+                        "mustDontHave": []
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "1dee15a5-b16f-4f8f-89b6-d9d128c3b18a"
+        },
+        {
+            "stationName": "猴硐",
+            "lines": [
+                {
+                    "stationNameInLine": "猴硐",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7350",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "猴硐",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7350",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "c7db3e8e-2445-4ba2-b20c-c13823704b5d"
+        },
+        {
+            "stationName": "三貂嶺",
+            "lines": [
+                {
+                    "stationNameInLine": "三貂嶺",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7330",
+                    "lineChecker": {
+                        "mustHave": [],
+                        "mustDontHave": [
+                            "平溪/深澳線"
+                        ]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "三貂嶺",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7330",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "三貂嶺",
+                    "lineName": "平溪/深澳線",
+                    "linecode": "",
+                    "lineColor": "8a8a8a",
+                    "lineDescription": "",
+                    "direction": 0,
+                    "lineChecker": {
+                        "mustHave": [
+                            "平溪/深澳線"
+                        ],
+                        "mustDontHave": []
+                    },
+                    "stationID": "7330",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "1388f063-6c5a-4ea6-8634-5e16327aa383"
+        },
+        {
+            "stationName": "牡丹",
+            "lines": [
+                {
+                    "stationNameInLine": "牡丹",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7320",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "牡丹",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7320",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "a57459be-3506-486a-a5c4-428cfbf573bf"
+        },
+        {
+            "stationName": "雙溪",
+            "lines": [
+                {
+                    "stationNameInLine": "雙溪",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7310",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "雙溪",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7310",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "0e99297e-3cb9-4878-8ea7-f7d03a75426d"
+        },
+        {
+            "stationName": "貢寮",
+            "lines": [
+                {
+                    "stationNameInLine": "貢寮",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7300",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "貢寮",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7300",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "aac86fb9-ac7d-4c25-b195-699f3ac1db3a"
+        },
+        {
+            "stationName": "福隆",
+            "lines": [
+                {
+                    "stationNameInLine": "福隆",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7290",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "福隆",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7290",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "5a168fa4-474d-41fc-8975-f0ee0a1c2723"
+        },
+        {
+            "stationName": "石城",
+            "lines": [
+                {
+                    "stationNameInLine": "石城",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7280",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "石城",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7280",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "25a263f9-4ff7-4050-a85a-09beec9809bd"
+        },
+        {
+            "stationName": "大里",
+            "lines": [
+                {
+                    "stationNameInLine": "大里",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7270",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大里",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7270",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "9bfa9761-ed7e-4bd8-8966-b3b79cff1364"
+        },
+        {
+            "stationName": "大溪",
+            "lines": [
+                {
+                    "stationNameInLine": "大溪",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7260",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "大溪",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7260",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "4f35334a-322a-4c0c-8624-c88774ee4627"
+        },
+        {
+            "stationName": "龜山",
+            "lines": [
+                {
+                    "stationNameInLine": "龜山",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7250",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "龜山",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7250",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "758d39fd-78ca-4680-b1b3-e19fb4ea8446"
+        },
+        {
+            "stationName": "外澳",
+            "lines": [
+                {
+                    "stationNameInLine": "外澳",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7240",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "外澳",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7240",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f2a2bcdd-82b9-48ab-8ef8-1de8e7ed0d5e"
+        },
+        {
+            "stationName": "頭城",
+            "lines": [
+                {
+                    "stationNameInLine": "頭城",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7230",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "頭城",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7230",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "4837e4d9-2bd1-4601-af11-9f4774640913"
+        },
+        {
+            "stationName": "頂埔",
+            "lines": [
+                {
+                    "stationNameInLine": "頂埔",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7220",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "頂埔",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7220",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "3acea039-d7ab-4d21-ac0b-b301b079374f"
+        },
+        {
+            "stationName": "礁溪",
+            "lines": [
+                {
+                    "stationNameInLine": "礁溪",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7210",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "礁溪",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7210",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "72b59336-cde5-488c-bb4b-c69a6369c129"
+        },
+        {
+            "stationName": "四城",
+            "lines": [
+                {
+                    "stationNameInLine": "四城",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7200",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "四城",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7200",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "b7e3a063-36d1-40e3-aa26-8384d4e4af86"
+        },
+        {
+            "stationName": "宜蘭",
+            "lines": [
+                {
+                    "stationNameInLine": "宜蘭",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7190",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "宜蘭",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "瑞芳、臺北方向",
+                    "direction": 1,
+                    "stationID": "7190",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "eef88ebe-f00c-4eb6-81fd-12632cf588b1"
+        },
+        {
+            "stationName": "二結",
+            "lines": [
+                {
+                    "stationNameInLine": "二結",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7180",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "二結",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、臺北方向",
+                    "direction": 1,
+                    "stationID": "7180",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "61f62f4e-b0e5-4c13-875f-091e23febb81"
+        },
+        {
+            "stationName": "中里",
+            "lines": [
+                {
+                    "stationNameInLine": "中里",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、花蓮方向",
+                    "direction": 0,
+                    "stationID": "7170",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "中里",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、臺北方向",
+                    "direction": 1,
+                    "stationID": "7170",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "b69d3b69-a3f6-4852-865f-ea6db43cfa1a"
+        },
+        {
+            "stationName": "羅東",
+            "lines": [
+                {
+                    "stationNameInLine": "羅東",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7160",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "羅東",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "宜蘭、臺北方向",
+                    "direction": 1,
+                    "stationID": "7160",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "11859661-9628-4e22-95b8-c3c0e7a10b49"
+        },
+        {
+            "stationName": "冬山",
+            "lines": [
+                {
+                    "stationNameInLine": "冬山",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7150",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "冬山",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7150",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "be5671c1-78a3-4dee-97f8-4df24c3306ff"
+        },
+        {
+            "stationName": "新馬",
+            "lines": [
+                {
+                    "stationNameInLine": "新馬",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7140",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "新馬",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7140",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "a230e652-65c4-460f-8225-66eb1cf82e45"
+        },
+        {
+            "stationName": "蘇澳新",
+            "lines": [
+                {
+                    "stationNameInLine": "蘇澳新",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7130",
+                    "lineChecker": {
+                        "mustHave": [],
+                        "mustDontHave": [
+                            "宜蘭線"
+                        ]
+                    },
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "蘇澳新",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7130",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "蘇澳新",
+                    "lineName": "宜蘭線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "蘇澳方向",
+                    "direction": 0,
+                    "stationID": "7130",
+                    "lineChecker": {
+                        "mustHave": [
+                            "宜蘭線"
+                        ],
+                        "mustDontHave": []
+                    },
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "9efff859-7872-4399-8e5c-c4a2ff322fb7"
+        },
+        {
+            "stationName": "永樂",
+            "lines": [
+                {
+                    "stationNameInLine": "永樂",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7110",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "永樂",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7110",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "c5049099-563c-4538-bd78-9d229806175d"
+        },
+        {
+            "stationName": "東澳",
+            "lines": [
+                {
+                    "stationNameInLine": "東澳",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7100",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "東澳",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7100",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "07a520c1-5f5c-46f4-b208-9cc5c6fd8b20"
+        },
+        {
+            "stationName": "南澳",
+            "lines": [
+                {
+                    "stationNameInLine": "南澳",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7090",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "南澳",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7090",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "72a809fd-b691-4760-959c-bb421b01929a"
+        },
+        {
+            "stationName": "武塔",
+            "lines": [
+                {
+                    "stationNameInLine": "武塔",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7080",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "武塔",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7080",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "97aad004-fd46-4bc7-ace0-45936d81bee3"
+        },
+        {
+            "stationName": "漢本",
+            "lines": [
+                {
+                    "stationNameInLine": "漢本",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7070",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "漢本",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7070",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "29321be0-0489-499b-be72-ad2ef369e6c8"
+        },
+        {
+            "stationName": "和平",
+            "lines": [
+                {
+                    "stationNameInLine": "和平",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7060",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "和平",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7060",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "ea63a28f-7a84-409e-8e3c-f01d0699032e"
+        },
+        {
+            "stationName": "和仁",
+            "lines": [
+                {
+                    "stationNameInLine": "和仁",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7050",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "和仁",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7050",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "c9a564d4-d04a-4901-b5ee-6f4f2025e372"
+        },
+        {
+            "stationName": "崇德",
+            "lines": [
+                {
+                    "stationNameInLine": "崇德",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7040",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "崇德",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7040",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "a45fdd79-0bfb-4c82-b2a3-a5550ec9e334"
+        },
+        {
+            "stationName": "新城",
+            "lines": [
+                {
+                    "stationNameInLine": "新城",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7030",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "新城",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7030",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "f13f0bd6-755b-4ffb-bbe7-b3c1a52f02fd"
+        },
+        {
+            "stationName": "景美",
+            "lines": [
+                {
+                    "stationNameInLine": "景美",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7020",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "景美",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7020",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "58e29d4f-6602-4798-8d33-c471b76cd29d"
+        },
+        {
+            "stationName": "北埔",
+            "lines": [
+                {
+                    "stationNameInLine": "北埔",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "花蓮、臺東方向",
+                    "direction": 0,
+                    "stationID": "7010",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "北埔",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7010",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "66cd04b4-4f6f-434c-89a9-5d633e84ba36"
+        },
+        {
+            "stationName": "花蓮",
+            "lines": [
+                {
+                    "stationNameInLine": "花蓮",
+                    "lineName": "宜蘭/北迴線",
+                    "linecode": "7",
+                    "lineColor": "red",
+                    "lineDescription": "羅東、宜蘭方向",
+                    "direction": 1,
+                    "stationID": "7000",
+                    "operator": "TR"
+                },
+                {
+                    "stationNameInLine": "花蓮",
+                    "lineName": "臺東線",
+                    "linecode": "6",
+                    "lineColor": "#054d01",
+                    "lineDescription": "玉里、臺東方向",
+                    "direction": 0,
+                    "stationID": "7000",
+                    "operator": "TR"
+                }
+            ],
+            "uuid": "cf695959-d2da-49f7-86e5-dd3f5baffb9e"
+        }
+    ],
+    "reverse":true
+}

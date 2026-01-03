@@ -1,0 +1,16 @@
+{
+    "stations":[
+        {
+            "stationName":"string",
+            "lines":[
+                {
+                    "stationNameInLine":"string",
+                    "lineName":"string",
+                    "linecode":"string(如果沒有則為空)",
+                    "lineColor":"string(暫時為空)",
+                    "lineDescription":"string"
+                }
+            ]
+        }
+    ]
+}
